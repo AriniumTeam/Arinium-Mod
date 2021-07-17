@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "arinium:block/aqua_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "arinium:block/aqua_dimension_portal_ns"
+    }
+  }
+}

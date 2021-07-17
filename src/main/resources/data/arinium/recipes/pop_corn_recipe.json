@@ -1,0 +1,12 @@
+{
+  "group": "arinium",
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "arinium:corn"
+  },
+  "result": {
+    "item": "arinium:pop_corn"
+  }
+}

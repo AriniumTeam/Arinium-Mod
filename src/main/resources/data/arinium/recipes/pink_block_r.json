@@ -1,0 +1,20 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_dye"
+    },
+    "3": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result": {
+    "item": "arinium:pink_block",
+    "count": 1
+  }
+}

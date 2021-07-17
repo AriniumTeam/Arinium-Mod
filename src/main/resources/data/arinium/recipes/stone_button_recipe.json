@@ -1,0 +1,16 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:weird_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_button",
+    "count": 1
+  }
+}

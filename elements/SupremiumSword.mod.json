@@ -1,0 +1,34 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "supremium_sword",
+    "customModelName": "Normal",
+    "name": "Supremium Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 6,
+    "efficiency": 4.0,
+    "attackSpeed": 1.7000000000000002,
+    "enchantability": 26,
+    "damageVsEntity": 20.0,
+    "usageCount": 120000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SupremiumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SupremiumSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

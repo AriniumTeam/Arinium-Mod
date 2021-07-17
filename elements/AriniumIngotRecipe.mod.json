@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ariniumdust"
+      },
+      {
+        "value": "CUSTOM:Ariniumdust"
+      },
+      {
+        "value": "CUSTOM:Ariniumdust"
+      },
+      {
+        "value": "CUSTOM:Ariniumdust"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "CUSTOM:Ariniumdust"
+      },
+      {
+        "value": "CUSTOM:Ariniumdust"
+      },
+      {
+        "value": "CUSTOM:Ariniumdust"
+      },
+      {
+        "value": "CUSTOM:Ariniumdust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ariniumingot"
+    },
+    "name": "arinium_ingot_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "fluid",
+  "definition": {
+    "name": "EnderWater",
+    "textureStill": "ender_water_still",
+    "textureFlowing": "ender_water_flow",
+    "luminosity": 0,
+    "density": 10000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "End"
+    ],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "EnderWaterProcedure"
+    }
+  }
+}

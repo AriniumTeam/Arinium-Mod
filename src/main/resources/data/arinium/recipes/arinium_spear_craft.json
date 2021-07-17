@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "arinium:diamond_spear"
+  },
+  "addition": {
+    "item": "arinium:ariniumingot"
+  },
+  "result": {
+    "item": "arinium:arinium_spear"
+  }
+}

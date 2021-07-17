@@ -1,0 +1,19 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:pop_corn"
+    },
+    "2": {
+      "item": "arinium:salt"
+    }
+  },
+  "result": {
+    "item": "arinium:salted_pop_corn",
+    "count": 1
+  }
+}

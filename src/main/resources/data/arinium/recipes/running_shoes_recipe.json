@@ -1,0 +1,26 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "arinium:running_shoes_boots",
+    "count": 1
+  }
+}

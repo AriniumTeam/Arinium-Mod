@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arinium:blocks/topazcase2",
+    "up": "arinium:blocks/topazcase2",
+    "north": "arinium:blocks/topazcase",
+    "east": "arinium:blocks/topazcase2",
+    "south": "arinium:blocks/topazcase2",
+    "west": "arinium:blocks/topazcase2",
+    "particle": "arinium:blocks/topazcase2"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:amethyst"
+    },
+    "1": {
+      "item": "arinium:amethyst"
+    },
+    "2": {
+      "item": "arinium:amethyst"
+    },
+    "3": {
+      "item": "arinium:amethyst"
+    },
+    "4": {
+      "item": "arinium:amethyst"
+    },
+    "5": {
+      "item": "arinium:amethyst"
+    },
+    "7": {
+      "item": "arinium:diamond_rod"
+    }
+  },
+  "result": {
+    "item": "arinium:amethyst_hammer",
+    "count": 1
+  }
+}

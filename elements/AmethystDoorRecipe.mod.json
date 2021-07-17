@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ametysthblock"
+      },
+      {
+        "value": "CUSTOM:Ametysthblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ametysthblock"
+      },
+      {
+        "value": "CUSTOM:Ametysthblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ametysthblock"
+      },
+      {
+        "value": "CUSTOM:Ametysthblock"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AmethystDoor"
+    },
+    "name": "amethyst_door_recipe",
+    "namespace": "mod"
+  }
+}

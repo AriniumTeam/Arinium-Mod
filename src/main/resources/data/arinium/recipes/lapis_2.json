@@ -1,0 +1,42 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:lapis_lazuli_nugget"
+    },
+    "1": {
+      "item": "arinium:lapis_lazuli_nugget"
+    },
+    "2": {
+      "item": "arinium:lapis_lazuli_nugget"
+    },
+    "3": {
+      "item": "arinium:lapis_lazuli_nugget"
+    },
+    "4": {
+      "item": "arinium:lapis_lazuli_nugget"
+    },
+    "5": {
+      "item": "arinium:lapis_lazuli_nugget"
+    },
+    "6": {
+      "item": "arinium:lapis_lazuli_nugget"
+    },
+    "7": {
+      "item": "arinium:lapis_lazuli_nugget"
+    },
+    "8": {
+      "item": "arinium:lapis_lazuli_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:lapis_lazuli",
+    "count": 1
+  }
+}

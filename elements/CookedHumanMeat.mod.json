@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "human_meat_cooked",
+    "customModelName": "Normal",
+    "name": "Cooked Human Meat",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 40,
+    "saturation": 15.0,
+    "eatingSpeed": 28,
+    "resultItem": {
+      "value": "Items.BONE"
+    },
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

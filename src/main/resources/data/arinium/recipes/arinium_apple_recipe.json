@@ -1,0 +1,42 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:ariniumingot"
+    },
+    "1": {
+      "item": "arinium:ariniumingot"
+    },
+    "2": {
+      "item": "arinium:ariniumingot"
+    },
+    "3": {
+      "item": "arinium:ariniumingot"
+    },
+    "4": {
+      "item": "minecraft:golden_apple"
+    },
+    "5": {
+      "item": "arinium:ariniumingot"
+    },
+    "6": {
+      "item": "arinium:ariniumingot"
+    },
+    "7": {
+      "item": "arinium:ariniumingot"
+    },
+    "8": {
+      "item": "arinium:ariniumingot"
+    }
+  },
+  "result": {
+    "item": "arinium:arinium_apple",
+    "count": 1
+  }
+}

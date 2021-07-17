@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:UnpurifiedSupremium"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.ENDER_PEARL"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:SupremiumIngot"
+    },
+    "name": "supremium_4",
+    "namespace": "mod"
+  }
+}

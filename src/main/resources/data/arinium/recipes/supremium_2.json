@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "arinium:red_pearl"
+  },
+  "addition": {
+    "item": "arinium:blue_pearl"
+  },
+  "result": {
+    "item": "arinium:unpurified_supremium_1"
+  }
+}

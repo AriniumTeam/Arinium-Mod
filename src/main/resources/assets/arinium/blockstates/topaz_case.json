@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arinium:block/topaz_case"
+    },
+    "facing=east": {
+      "model": "arinium:block/topaz_case",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arinium:block/topaz_case",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arinium:block/topaz_case",
+      "y": 270
+    }
+  }
+}

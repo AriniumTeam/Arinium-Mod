@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "arinium:blocks/amethyst_block",
+    "particle": "arinium:blocks/amethyst_block"
+  }
+}

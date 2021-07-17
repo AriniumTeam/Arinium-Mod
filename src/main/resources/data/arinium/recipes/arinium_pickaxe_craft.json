@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "addition": {
+    "item": "arinium:ariniumingot"
+  },
+  "result": {
+    "item": "arinium:arinium_pickaxe"
+  }
+}

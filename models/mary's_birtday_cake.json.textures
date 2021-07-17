@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "caketop",
+        "1": "cake_bottom",
+        "2": "cakefront"
+      },
+      "name": "default"
+    }
+  }
+}

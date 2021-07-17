@@ -1,0 +1,32 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "1": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "2": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "3": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "4": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "5": {
+      "item": "arinium:weird_cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone_wall",
+    "count": 6
+  }
+}

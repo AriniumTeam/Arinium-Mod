@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arinium:blocks/waterstill",
+    "up": "arinium:blocks/waterstill",
+    "north": "arinium:blocks/waterflow",
+    "east": "arinium:blocks/waterflow",
+    "south": "arinium:blocks/waterflow",
+    "west": "arinium:blocks/waterflow",
+    "particle": "arinium:blocks/waterstill"
+  }
+}

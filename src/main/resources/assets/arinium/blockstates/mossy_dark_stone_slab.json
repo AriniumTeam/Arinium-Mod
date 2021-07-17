@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "arinium:block/mossy_dark_stone_slab"
+    },
+    "type=top": {
+      "model": "arinium:block/mossy_dark_stone_slab_top"
+    },
+    "type=double": {
+      "model": "arinium:block/mossy_dark_stone_slab_full"
+    }
+  }
+}

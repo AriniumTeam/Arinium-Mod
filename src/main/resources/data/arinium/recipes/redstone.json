@@ -1,0 +1,16 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "arinium:redstone_nugget",
+    "count": 9
+  }
+}

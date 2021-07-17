@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "saltedpopcorn",
+    "customModelName": "Normal",
+    "name": "Salted Pop Corn",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 5,
+    "saturation": 0.0,
+    "eatingSpeed": 7,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SaltedPopCornProcedure"
+    }
+  }
+}

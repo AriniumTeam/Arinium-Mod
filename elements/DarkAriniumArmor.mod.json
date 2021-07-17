@@ -1,0 +1,70 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "darkarinium_helmet",
+    "enableBody": true,
+    "textureBody": "darkarinium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "darkarinium_leggings",
+    "enableBoots": true,
+    "textureBoots": "darkarinium_boots",
+    "onHelmetTick": {
+      "name": "AriniumHelmetProcedure"
+    },
+    "onBodyTick": {
+      "name": "AriniumChestplateProcedure"
+    },
+    "onLeggingsTick": {
+      "name": "AriniumLeggingsProcedure"
+    },
+    "onBootsTick": {
+      "name": "AriniumBootsProcedure"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Arinium"
+    },
+    "armorTextureFile": "darkarinium_",
+    "helmetName": "Dark Arinium Helmet",
+    "bodyName": "Dark Arinium Chestplate",
+    "leggingsName": "Dark Arinium Leggings",
+    "bootsName": "Dark Arinium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 52,
+    "damageValueHelmet": 6,
+    "damageValueBody": 11,
+    "damageValueLeggings": 9,
+    "damageValueBoots": 6,
+    "enchantability": 9,
+    "toughness": 3.5,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:DarkAriniumIngot"
+      }
+    ]
+  }
+}

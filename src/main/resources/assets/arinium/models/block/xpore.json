@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arinium:blocks/xp_ore",
+    "particle": "arinium:blocks/xp_ore"
+  }
+}

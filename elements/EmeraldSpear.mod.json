@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "emerald_spear",
+    "customModelName": "Normal",
+    "name": "Emerald Spear",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 600,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 8.5,
+    "onRangedItemUsed": {
+      "name": "SpearsCooldown"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 8.5,
+    "bulletKnockback": 2,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:EmeraldSpearBullet"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

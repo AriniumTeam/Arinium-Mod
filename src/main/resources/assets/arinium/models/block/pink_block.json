@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arinium:blocks/pink",
+    "particle": "arinium:blocks/pink"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arinium:blocks/dirt",
+    "up": "arinium:blocks/deadgrasstop",
+    "north": "arinium:blocks/deadgrassside",
+    "east": "arinium:blocks/deadgrassside",
+    "south": "arinium:blocks/deadgrassside",
+    "west": "arinium:blocks/deadgrassside",
+    "particle": "arinium:blocks/dirt"
+  }
+}

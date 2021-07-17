@@ -1,0 +1,37 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "supremiumbow1",
+    "customModelName": "Normal",
+    "name": "Supremium Bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:AriniumArrowNE"
+    },
+    "shootConstantly": false,
+    "usageCount": 10000,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 6.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelariniumarrow",
+    "customBulletModelTexture": "ariniumarrowe.png"
+  }
+}

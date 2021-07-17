@@ -1,0 +1,108 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "Nether Biome",
+    "groundBlock": {
+      "value": "CUSTOM:DeadGrass"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.NETHERRACK"
+    },
+    "airColor": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "FALL_LAVA"
+    },
+    "particlesProbability": 1.2000000000000002,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "baseHeight": 0.0,
+    "heightVariation": 0.0,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 14,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 9,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 3,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": "CUSTOM:DeadLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:DeadLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "Fossils",
+      "ExtraGoldOre",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": []
+  }
+}

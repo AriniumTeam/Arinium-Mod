@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "addition": {
+    "item": "arinium:ariniumingot"
+  },
+  "result": {
+    "item": "arinium:arinium_armor_leggings"
+  }
+}

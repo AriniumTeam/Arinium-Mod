@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "fluid",
+  "definition": {
+    "name": "BlackMatter",
+    "textureStill": "blackmatter",
+    "textureFlowing": "blackmatter",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "LAVA",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "frequencyOnChunks": 20,
+    "spawnWorldTypes": [
+      "Nether"
+    ],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "BlackMatterProcedure"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "arinium:weird_stone"
+    },
+    "4": {
+      "item": "arinium:weird_stone"
+    },
+    "5": {
+      "item": "arinium:weird_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stonecutter",
+    "count": 1
+  }
+}

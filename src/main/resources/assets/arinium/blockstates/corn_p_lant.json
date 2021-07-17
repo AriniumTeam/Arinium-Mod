@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "arinium:block/corn_p_lant"
+    },
+    "half=lower": {
+      "model": "arinium:block/corn_p_lant_bottom"
+    }
+  }
+}

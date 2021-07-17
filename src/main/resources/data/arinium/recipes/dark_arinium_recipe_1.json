@@ -1,0 +1,16 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:dark_arinium_block"
+    }
+  },
+  "result": {
+    "item": "arinium:dark_arinium_ingot",
+    "count": 9
+  }
+}

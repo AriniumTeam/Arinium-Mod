@@ -1,0 +1,16 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:ariniumingot"
+    }
+  },
+  "result": {
+    "item": "arinium:arinium_nugget",
+    "count": 9
+  }
+}

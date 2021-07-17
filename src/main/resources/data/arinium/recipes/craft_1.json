@@ -1,0 +1,26 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:arinium_planks"
+    },
+    "1": {
+      "item": "arinium:arinium_planks"
+    },
+    "2": {
+      "item": "arinium:arinium_planks"
+    },
+    "3": {
+      "item": "arinium:arinium_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

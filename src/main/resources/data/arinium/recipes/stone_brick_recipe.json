@@ -1,0 +1,26 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:weird_stone"
+    },
+    "1": {
+      "item": "arinium:weird_stone"
+    },
+    "2": {
+      "item": "arinium:weird_stone"
+    },
+    "3": {
+      "item": "arinium:weird_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_bricks",
+    "count": 4
+  }
+}

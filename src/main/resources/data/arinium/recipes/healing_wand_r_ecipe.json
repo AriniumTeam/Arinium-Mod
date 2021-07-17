@@ -1,0 +1,42 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:topaz"
+    },
+    "1": {
+      "item": "arinium:topaz"
+    },
+    "2": {
+      "item": "arinium:topaz"
+    },
+    "3": {
+      "item": "arinium:topaz"
+    },
+    "4": {
+      "item": "arinium:water_wand"
+    },
+    "5": {
+      "item": "arinium:topaz"
+    },
+    "6": {
+      "item": "arinium:topaz"
+    },
+    "7": {
+      "item": "arinium:topaz"
+    },
+    "8": {
+      "item": "arinium:topaz"
+    }
+  },
+  "result": {
+    "item": "arinium:healing_wand",
+    "count": 1
+  }
+}

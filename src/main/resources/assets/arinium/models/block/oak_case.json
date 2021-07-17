@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arinium:blocks/oak_planks",
+    "up": "arinium:blocks/oak_planks",
+    "north": "arinium:blocks/oakcase",
+    "east": "arinium:blocks/oak_planks",
+    "south": "arinium:blocks/oak_planks",
+    "west": "arinium:blocks/oak_planks",
+    "particle": "arinium:blocks/oak_planks"
+  }
+}

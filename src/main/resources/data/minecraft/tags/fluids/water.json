@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "arinium:ender_water",
+    "arinium:ender_water_flowing",
+    "arinium:rainbow",
+    "arinium:rainbow_flowing"
+  ]
+}

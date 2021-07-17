@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "arinium:block/tall_weird_grass"
+    },
+    "half=lower": {
+      "model": "arinium:block/tall_weird_grass_bottom"
+    }
+  }
+}

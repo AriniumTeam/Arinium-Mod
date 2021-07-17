@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arinium:blocks/deadlog2",
+    "up": "arinium:blocks/deadlog2",
+    "north": "arinium:blocks/deadlog",
+    "east": "arinium:blocks/deadlog",
+    "south": "arinium:blocks/deadlog",
+    "west": "arinium:blocks/deadlog",
+    "particle": "arinium:blocks/deadlog2"
+  }
+}

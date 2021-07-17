@@ -1,0 +1,39 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "1": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "2": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "3": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "5": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "6": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "item": "arinium:weird_cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:dropper",
+    "count": 1
+  }
+}

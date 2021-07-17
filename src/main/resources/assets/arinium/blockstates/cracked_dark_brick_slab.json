@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "arinium:block/cracked_dark_brick_slab"
+    },
+    "type=top": {
+      "model": "arinium:block/cracked_dark_brick_slab_top"
+    },
+    "type=double": {
+      "model": "arinium:block/cracked_dark_brick_slab_full"
+    }
+  }
+}

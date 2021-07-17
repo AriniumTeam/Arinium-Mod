@@ -1,0 +1,19 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint"
+    },
+    "1": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "arinium:red_flint",
+    "count": 1
+  }
+}

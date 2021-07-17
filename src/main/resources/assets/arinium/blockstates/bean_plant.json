@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "arinium:block/bean_plant"
+    },
+    "half=lower": {
+      "model": "arinium:block/bean_plant_bottom"
+    }
+  }
+}

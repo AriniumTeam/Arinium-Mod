@@ -1,0 +1,20 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "3": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "arinium:light_blue_block",
+    "count": 1
+  }
+}

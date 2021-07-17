@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "addition": {
+    "item": "arinium:supremium_ingot"
+  },
+  "result": {
+    "item": "arinium:supremium_armor_chestplate"
+  }
+}

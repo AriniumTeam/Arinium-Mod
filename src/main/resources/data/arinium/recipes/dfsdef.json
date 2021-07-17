@@ -1,0 +1,42 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:arinium_nugget"
+    },
+    "1": {
+      "item": "arinium:arinium_nugget"
+    },
+    "2": {
+      "item": "arinium:arinium_nugget"
+    },
+    "3": {
+      "item": "arinium:arinium_nugget"
+    },
+    "4": {
+      "item": "arinium:arinium_nugget"
+    },
+    "5": {
+      "item": "arinium:arinium_nugget"
+    },
+    "6": {
+      "item": "arinium:arinium_nugget"
+    },
+    "7": {
+      "item": "arinium:arinium_nugget"
+    },
+    "8": {
+      "item": "arinium:arinium_nugget"
+    }
+  },
+  "result": {
+    "item": "arinium:ariniumingot",
+    "count": 1
+  }
+}

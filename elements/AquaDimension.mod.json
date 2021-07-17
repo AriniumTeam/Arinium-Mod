@@ -1,0 +1,49 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:AquaBiome"
+      },
+      {
+        "value": "ocean"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:WaterBlock"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -13382401,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:WaterBlock"
+    },
+    "portalParticles": {
+      "value": "WATER_BUBBLE"
+    },
+    "portalLuminance": 5,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Aqua Dimension Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "texture": "aquadimensionigniter",
+    "portalTexture": "aquaportal",
+    "enablePortal": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dagger",
+    "customModelName": "Normal",
+    "name": "Dagger",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 4.5,
+    "attackSpeed": 1.0,
+    "enchantability": 4,
+    "damageVsEntity": 2.5,
+    "usageCount": 65,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Steel"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "DaggerProcedure"
+    }
+  }
+}

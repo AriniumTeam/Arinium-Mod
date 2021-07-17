@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:chest"
+  },
+  "addition": {
+    "item": "arinium:ariniumingot"
+  },
+  "result": {
+    "item": "arinium:oak_case"
+  }
+}

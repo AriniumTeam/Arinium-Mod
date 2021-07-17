@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "fluid",
+  "definition": {
+    "name": "Rainbow",
+    "textureStill": "rainbow",
+    "textureFlowing": "rainbow",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "frequencyOnChunks": 10,
+    "spawnWorldTypes": [
+      "End"
+    ],
+    "restrictionBiomes": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_torch"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:redstone_torch"
+    },
+    "3": {
+      "item": "arinium:weird_stone"
+    },
+    "4": {
+      "item": "arinium:weird_stone"
+    },
+    "5": {
+      "item": "arinium:weird_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

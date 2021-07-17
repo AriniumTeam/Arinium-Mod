@@ -1,0 +1,33 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:ametysthblock"
+    },
+    "1": {
+      "item": "arinium:ametysthblock"
+    },
+    "2": {
+      "item": "arinium:ametysthblock"
+    },
+    "3": {
+      "item": "arinium:ametysthblock"
+    },
+    "4": {
+      "item": "arinium:ametysthblock"
+    },
+    "5": {
+      "item": "arinium:ametysthblock"
+    }
+  },
+  "result": {
+    "item": "arinium:amethyst_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "arinium_spear",
+    "customModelName": "Normal",
+    "name": "Arinium Spear",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Arinium"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1300,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 12.5,
+    "onRangedItemUsed": {
+      "name": "SpearsCooldown"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 12.5,
+    "bulletKnockback": 3,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:AriniumSpearBullet"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "1": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "2": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:quartz"
+    },
+    "6": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "7": {
+      "item": "arinium:weird_cobblestone"
+    },
+    "8": {
+      "item": "arinium:weird_cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer",
+    "count": 1
+  }
+}

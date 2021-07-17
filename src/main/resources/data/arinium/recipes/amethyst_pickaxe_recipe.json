@@ -1,0 +1,30 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:amethyst"
+    },
+    "1": {
+      "item": "arinium:amethyst"
+    },
+    "2": {
+      "item": "arinium:amethyst"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "arinium:amethyst_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:xp"
+    },
+    "1": {
+      "item": "arinium:xp"
+    },
+    "2": {
+      "item": "arinium:xp"
+    },
+    "3": {
+      "item": "arinium:xp"
+    },
+    "4": {
+      "item": "minecraft:golden_apple"
+    },
+    "5": {
+      "item": "arinium:xp"
+    },
+    "6": {
+      "item": "arinium:xp"
+    },
+    "7": {
+      "item": "arinium:xp"
+    },
+    "8": {
+      "item": "arinium:xp"
+    }
+  },
+  "result": {
+    "item": "arinium:xp_apple",
+    "count": 1
+  }
+}

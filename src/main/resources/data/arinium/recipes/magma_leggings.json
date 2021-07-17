@@ -1,0 +1,36 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magma_block"
+    },
+    "1": {
+      "item": "minecraft:magma_block"
+    },
+    "2": {
+      "item": "minecraft:magma_block"
+    },
+    "3": {
+      "item": "minecraft:magma_block"
+    },
+    "5": {
+      "item": "minecraft:magma_block"
+    },
+    "6": {
+      "item": "minecraft:magma_block"
+    },
+    "8": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+    "item": "arinium:magma_g_tunic_leggings",
+    "count": 1
+  }
+}

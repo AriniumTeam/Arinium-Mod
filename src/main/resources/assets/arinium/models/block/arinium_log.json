@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arinium:blocks/ariniumlogbottom",
+    "up": "arinium:blocks/ariniumlogbottom",
+    "north": "arinium:blocks/ariniumlog",
+    "east": "arinium:blocks/ariniumlog",
+    "south": "arinium:blocks/ariniumlog",
+    "west": "arinium:blocks/ariniumlog",
+    "particle": "arinium:blocks/ariniumlogbottom"
+  }
+}

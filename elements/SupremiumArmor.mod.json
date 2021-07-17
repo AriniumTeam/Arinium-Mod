@@ -1,0 +1,70 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "supremium_helmet",
+    "enableBody": true,
+    "textureBody": "supremium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "supremium_leggings",
+    "enableBoots": true,
+    "textureBoots": "supremium_boots",
+    "onHelmetTick": {
+      "name": "AriniumHelmetProcedure"
+    },
+    "onBodyTick": {
+      "name": "AriniumChestplateProcedure"
+    },
+    "onLeggingsTick": {
+      "name": "AriniumLeggingsProcedure"
+    },
+    "onBootsTick": {
+      "name": "AriniumBootsProcedure"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "armorTextureFile": "supremiumlayer_1",
+    "helmetName": "Supremium Helmet",
+    "bodyName": "Supremium Chestplate",
+    "leggingsName": "Supremium Leggings",
+    "bootsName": "Supremium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 62,
+    "damageValueHelmet": 8,
+    "damageValueBody": 13,
+    "damageValueLeggings": 11,
+    "damageValueBoots": 8,
+    "enchantability": 9,
+    "toughness": 3.9999999999999996,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SupremiumIngot"
+      }
+    ]
+  }
+}

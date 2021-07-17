@@ -1,0 +1,16 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:arinium_log"
+    }
+  },
+  "result": {
+    "item": "arinium:arinium_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:amethyst"
+    },
+    "3": {
+      "item": "arinium:amethyst"
+    },
+    "4": {
+      "item": "arinium:amethyst"
+    },
+    "6": {
+      "item": "arinium:amethyst"
+    },
+    "7": {
+      "item": "arinium:amethyst"
+    },
+    "8": {
+      "item": "arinium:amethyst"
+    }
+  },
+  "result": {
+    "item": "arinium:amethyst_stairs",
+    "count": 4
+  }
+}

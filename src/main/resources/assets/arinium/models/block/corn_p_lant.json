@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "arinium:blocks/cornplantupside",
+    "particle": "arinium:blocks/cornplantupside"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "amethysthammer",
+    "customModelName": "Normal",
+    "name": "Amethyst Hammer",
+    "specialInfo": [
+      "Be careful and don't break ore with this Hammer !"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 13.5,
+    "attackSpeed": 1.0,
+    "enchantability": 44,
+    "damageVsEntity": 4.0,
+    "usageCount": 25000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Amethyst"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AmethystHammerProcedure2"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "AmethystHammerProcedure"
+    }
+  }
+}

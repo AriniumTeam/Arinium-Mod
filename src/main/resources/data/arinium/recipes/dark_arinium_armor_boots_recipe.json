@@ -1,0 +1,26 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:dark_arinium_ingot"
+    },
+    "2": {
+      "item": "arinium:dark_arinium_ingot"
+    },
+    "3": {
+      "item": "arinium:dark_arinium_ingot"
+    },
+    "5": {
+      "item": "arinium:dark_arinium_ingot"
+    }
+  },
+  "result": {
+    "item": "arinium:dark_arinium_armor_boots",
+    "count": 1
+  }
+}

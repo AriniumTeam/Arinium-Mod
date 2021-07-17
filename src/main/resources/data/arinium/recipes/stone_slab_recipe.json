@@ -1,0 +1,22 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:weird_stone"
+    },
+    "1": {
+      "item": "arinium:weird_stone"
+    },
+    "2": {
+      "item": "arinium:weird_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_slab",
+    "count": 6
+  }
+}

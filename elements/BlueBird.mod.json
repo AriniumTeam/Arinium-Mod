@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "bluebird_musicdisc",
+    "name": "Blue Bird",
+    "description": "Blue Bird from Naruto Shippuden - Oppening 3",
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "music": {
+      "value": "CUSTOM:bluebird"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

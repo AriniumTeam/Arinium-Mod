@@ -1,0 +1,32 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:ametysthblock"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "arinium:ametysthblock"
+    },
+    "3": {
+      "item": "arinium:ametysthblock"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "arinium:ametysthblock"
+    }
+  },
+  "result": {
+    "item": "arinium:amethyst_fence",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "arinium:unpurified_supremium"
+  },
+  "addition": {
+    "item": "minecraft:ender_pearl"
+  },
+  "result": {
+    "item": "arinium:supremium_ingot"
+  }
+}

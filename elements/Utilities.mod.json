@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Other Items",
+    "icon": {
+      "value": "CUSTOM:IronRod"
+    },
+    "showSearch": false
+  }
+}

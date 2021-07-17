@@ -1,0 +1,24 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "arinium:red_flint"
+    },
+    "4": {
+      "item": "arinium:iron_rod"
+    },
+    "6": {
+      "item": "arinium:red_feather"
+    }
+  },
+  "result": {
+    "item": "arinium:arinium_arrow_ne",
+    "count": 5
+  }
+}

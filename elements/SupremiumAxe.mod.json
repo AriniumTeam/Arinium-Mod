@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "supremium_axe",
+    "customModelName": "Normal",
+    "name": "Supremium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Utilities"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 6,
+    "efficiency": 12.0,
+    "attackSpeed": 0.6,
+    "enchantability": 20,
+    "damageVsEntity": 22.0,
+    "usageCount": 120000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SupremiumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

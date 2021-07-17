@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "arinium:blocks/weirdtallgrassbottom",
+    "particle": "arinium:blocks/weirdtallgrassbottom"
+  }
+}

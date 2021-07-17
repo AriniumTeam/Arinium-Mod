@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeadPlanks"
+      },
+      {
+        "value": "CUSTOM:DeadPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeadPlanks"
+      },
+      {
+        "value": "CUSTOM:DeadPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "name": "craft_2",
+    "namespace": "mod"
+  }
+}

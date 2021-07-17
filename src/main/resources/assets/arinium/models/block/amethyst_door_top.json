@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "arinium:blocks/amethyst_block",
+    "top": "arinium:blocks/amethyst_block"
+  }
+}

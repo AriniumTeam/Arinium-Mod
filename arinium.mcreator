@@ -1,0 +1,4129 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Ariniumdust",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ariniumdust",
+      "path": "~/items"
+    },
+    {
+      "name": "Ariniumingot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ariniumingot",
+      "path": "~/items"
+    },
+    {
+      "name": "AriniumIngotRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_ingot_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumOreOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_ore_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "AriniumSword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AriniumSwordProcedure",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_sword_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "AriniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_sword_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumArmor",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "AriniumLeggingsCraft",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_leggings_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumHelmetCraft",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_helmet_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumChestplateCraft",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_chestplate_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumBootsCraft",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_boots_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumPickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AriniumPickaxeCraft",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_pickaxe_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "EnderWater",
+      "type": "fluid",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_water",
+      "path": "~/fluid"
+    },
+    {
+      "name": "EnderWaterProcedure",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_water_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "RunningShoes",
+      "type": "armor",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "running_shoes",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "RunningShoesProcedure",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "running_shoes_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Bean",
+      "type": "food",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bean",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "BeanPlant",
+      "type": "plant",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bean_plant",
+      "path": "~/Flore"
+    },
+    {
+      "name": "Amethyst",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst",
+      "path": "~/items"
+    },
+    {
+      "name": "AmethystOre",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "Ametysthblock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ametysthblock",
+      "path": "~/block"
+    },
+    {
+      "name": "AmethystBlockRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_block_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmethystPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_pickaxe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_axe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystAxeRecipe2",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_axe_recipe_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_shovel_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystHoe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hoe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmethystHoeRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hoe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystHoeRecipe2",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hoe_recipe_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystStairs",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_stairs",
+      "path": "~/block"
+    },
+    {
+      "name": "AmethystSlab",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_slab",
+      "path": "~/block"
+    },
+    {
+      "name": "AmethystFence",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_fence",
+      "path": "~/block"
+    },
+    {
+      "name": "AmethystDoor",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_door",
+      "path": "~/block"
+    },
+    {
+      "name": "WaterWand",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_wand",
+      "path": "~/Tools"
+    },
+    {
+      "name": "WaterWandGuiProcedure",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_wand_gui_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "WaterWandRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_wand_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "OakCase",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_case",
+      "path": "~/block"
+    },
+    {
+      "name": "OakCaseGUI",
+      "type": "gui",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_case_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "GoldenShears",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_shears",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Corn",
+      "type": "food",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corn",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "PopCorn",
+      "type": "food",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pop_corn",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "PopCornRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pop_corn_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SweetPopCorn",
+      "type": "food",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sweet_pop_corn",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "SweetPopCornRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sweet_pop_corn_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SweetPopCornProcedure",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sweet_pop_corn_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SaltedPopCorn",
+      "type": "food",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salted_pop_corn",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "SaltedPopCornRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salted_pop_corn_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SaltedPopCornProcedure",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salted_pop_corn_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "OakCaseRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_case_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystStairsRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_stairs_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "RunningShoesRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "running_shoes_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AMethystSlabRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_methyst_slab_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystFenceRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_fence_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystDoorRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_door_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "GoldenShearsRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_shears_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "CornPLant",
+      "type": "plant",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corn_p_lant",
+      "path": "~/Flore"
+    },
+    {
+      "name": "EndBag",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_bag",
+      "path": "~/Tools"
+    },
+    {
+      "name": "EndBagGui",
+      "type": "gui",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_bag_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "EndBagRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_bag_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BlackMatter",
+      "type": "fluid",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_matter",
+      "path": "~/fluid"
+    },
+    {
+      "name": "BlackMatterProcedure",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_matter_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Rainbow",
+      "type": "fluid",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow",
+      "path": "~/fluid"
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_rod",
+      "path": "~/items"
+    },
+    {
+      "name": "AriniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_axe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "IronRodRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_rod_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Topaz",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topaz",
+      "path": "~/items"
+    },
+    {
+      "name": "TopazOre",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topaz_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "TopazCase",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topaz_case",
+      "path": "~/block"
+    },
+    {
+      "name": "TopazCaseGui",
+      "type": "gui",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topaz_case_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "TopazCaseRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topaz_case_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BlueBird",
+      "type": "musicdisc",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_bird",
+      "path": "~/items"
+    },
+    {
+      "name": "MagicWand",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healing_wand",
+      "path": "~/Tools"
+    },
+    {
+      "name": "HealingWandProcedure",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healing_wand_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HealingWandREcipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healing_wand_r_ecipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "UwuParticle",
+      "type": "particle",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uwu_particle",
+      "path": "~/particles"
+    },
+    {
+      "name": "CreepyTheCreeper",
+      "type": "mob",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creepy_the_creeper",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "DarkSkeletonBone",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_skeleton_bone",
+      "path": "~/items"
+    },
+    {
+      "name": "DarkSkeleton",
+      "type": "mob",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_skeleton",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "AriniumBootsProcedure",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_boots_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "AriniumLeggingsProcedure",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_leggings_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "AriniumChestplateProcedure",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_chestplate_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "AriniumHelmetProcedure",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_helmet_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "AriniumAppleProcedure",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_apple_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "AriniumApple",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_apple",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "AquaTemple",
+      "type": "structure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aqua_temple",
+      "path": "~/Structure"
+    },
+    {
+      "name": "AriniumAppleRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_apple_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "MossyDarkStone",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_dark_stone",
+      "path": "~/block"
+    },
+    {
+      "name": "MossyDarkStoneStairs",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_dark_stone_stairs",
+      "path": "~/block"
+    },
+    {
+      "name": "MossyDarkStoneSlab",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_dark_stone_slab",
+      "path": "~/block"
+    },
+    {
+      "name": "DarkStone",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_stone",
+      "path": "~/block"
+    },
+    {
+      "name": "DarkBrickStairs",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_brick_stairs",
+      "path": "~/block"
+    },
+    {
+      "name": "DarkBrickSlab",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_brick_slab",
+      "path": "~/block"
+    },
+    {
+      "name": "CrackedDarkBrick",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_dark_brick",
+      "path": "~/block"
+    },
+    {
+      "name": "CrackedDarkBrickStairs",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_dark_brick_stairs",
+      "path": "~/block"
+    },
+    {
+      "name": "CrackedDarkBrickSlab",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_dark_brick_slab",
+      "path": "~/block"
+    },
+    {
+      "name": "DarkBloodyBrickDoor",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_bloody_brick_door",
+      "path": "~/block"
+    },
+    {
+      "name": "FlamySword",
+      "type": "tool",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flamy_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "FlamySwordProcedure",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flamy_sword_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "FlamyTheBoss",
+      "type": "mob",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flamy_the_boss",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "FlamyTheBossProcedure",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flamy_the_boss_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "DarkDungeon",
+      "type": "structure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_dungeon",
+      "path": "~/Structure"
+    },
+    {
+      "name": "DarkBricksFence",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_bricks_fence",
+      "path": "~/block"
+    },
+    {
+      "name": "RedPearl",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_pearl",
+      "path": "~/items"
+    },
+    {
+      "name": "BluePearl",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_pearl",
+      "path": "~/items"
+    },
+    {
+      "name": "YellowPearl",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_pearl",
+      "path": "~/items"
+    },
+    {
+      "name": "SteelOre",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel",
+      "path": "~/items"
+    },
+    {
+      "name": "SteelCraft",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BloodBottle",
+      "type": "food",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "DaggerProcedure",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dagger_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Dagger",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dagger",
+      "path": "~/Tools"
+    },
+    {
+      "name": "DaggerRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dagger_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BlueEnderman",
+      "type": "mob",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_enderman",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "BlueEndermanTransformButtonProcedure",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_enderman_transform_button_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "RedEnderman",
+      "type": "mob",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_enderman",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "YellowEnderman",
+      "type": "mob",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_enderman",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "UnpurifiedSupremium",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unpurified_supremium",
+      "path": "~/items"
+    },
+    {
+      "name": "SupremiumIngot",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_ingot",
+      "path": "~/items"
+    },
+    {
+      "name": "BloddyDarkBrickTrapdoor",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloddy_dark_brick_trapdoor",
+      "path": "~/block"
+    },
+    {
+      "name": "UnpurifiedSupremium1",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unpurified_supremium_1",
+      "path": "~/items"
+    },
+    {
+      "name": "UnpurifiedSupremium2",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unpurified_supremium_2",
+      "path": "~/items"
+    },
+    {
+      "name": "GreenPearl",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_pearl",
+      "path": "~/items"
+    },
+    {
+      "name": "GreenEnderman",
+      "type": "mob",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_enderman",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "AriniumPlanks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_planks",
+      "path": "~/block"
+    },
+    {
+      "name": "AriniumLog",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_log",
+      "path": "~/Flore"
+    },
+    {
+      "name": "AriniumPlanksRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_planks_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StickRecie",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stick_recie",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumLeaves",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_leaves",
+      "path": "~/Flore"
+    },
+    {
+      "name": "WeirdVillager",
+      "type": "mob",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_villager",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "BigTree",
+      "type": "structure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_tree",
+      "path": "~/Structure"
+    },
+    {
+      "name": "WeirdGrass",
+      "type": "plant",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_grass",
+      "path": "~/Flore"
+    },
+    {
+      "name": "TallWeirdGrass",
+      "type": "plant",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_weird_grass",
+      "path": "~/Flore"
+    },
+    {
+      "name": "WeirdGrassBlock",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_grass_block",
+      "path": "~/block"
+    },
+    {
+      "name": "WeirdStone",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_stone",
+      "path": "~/block"
+    },
+    {
+      "name": "WeirdCobblestone",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_cobblestone",
+      "path": "~/block"
+    },
+    {
+      "name": "WeirdStoneRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_stone_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AndesiteRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesite_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BrewingStand",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brewing_stand",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SlabRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slab_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StairsRecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stairs_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "CobblestonWallRecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobbleston_wall_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DispenderRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dispender_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DropperRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dropper_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DropperRecipe2",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dropper_recipe_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "FurnaceRecipe",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "LeverRecipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lever_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "MossyCobblestoneRecipe",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_cobblestone_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "ObserverRecipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "observer_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "PistonRecipe",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piston_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AxeRecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_hoe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneShovelrecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_shovelrecipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_pickaxe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_sword_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "ComparatorRecipe",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comparator_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "RepeaterRecipe",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "repeater_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneButtonRecipe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_button_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StonePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_pressure_plate_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneBrickRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_brick_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_slab_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_stairs_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneCutterRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_cutter_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkAriniumOre",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "Shiba",
+      "type": "mob",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shiba",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "AriniumAdvancement",
+      "type": "achievement",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_advancement",
+      "path": "~/advancements"
+    },
+    {
+      "name": "DarkAriniumIngot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_ingot",
+      "path": "~/items"
+    },
+    {
+      "name": "DarkAriniumArmor",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "DarkAriniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_armor_helmet_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkAriniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_armor_body_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkAriniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_armor_leggings_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkAriniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_armor_boots_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "DarkAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "DarkSword",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "DarkPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_pickaxe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkAxeRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_axe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkSwordRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sword_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkAriniumBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_block",
+      "path": "~/block"
+    },
+    {
+      "name": "DarkAriniumBlockRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_block_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkAriniumRecipe1",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_recipe_1",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DiamondRod",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_rod",
+      "path": "~/items"
+    },
+    {
+      "name": "DiamondRodRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_rod_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystHammerProcedure",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hammer_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "AmethystHammer",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hammer",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmethystHammerRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hammer_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystHammerProcedure2",
+      "type": "procedure",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_hammer_procedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "AriniumArrowNE",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_arrow_ne",
+      "path": "~/Tools"
+    },
+    {
+      "name": "RedFlint",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_flint",
+      "path": "~/items"
+    },
+    {
+      "name": "RedFeather",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_feather",
+      "path": "~/items"
+    },
+    {
+      "name": "RedFlintRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_flint_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "RedFeatherRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_feather_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumArrowRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_arrow_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SupremiumBow",
+      "type": "gun",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_bow",
+      "path": "~/Tools"
+    },
+    {
+      "name": "SupremiumBowRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_bow_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "CobbleDestroyerBag",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_destroyer_bag",
+      "path": "~/Tools"
+    },
+    {
+      "name": "DestroyerBagGUI",
+      "type": "gui",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "destroyer_bag_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "FaispasC",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faispas_c",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SupremiumArmor",
+      "type": "armor",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "SupremiumLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_leggings_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SupremiumBootsRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_boots_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SupremiumBlock",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_block",
+      "path": "~/block"
+    },
+    {
+      "name": "SupremiumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_chestplate_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SupremiumHelmetRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_helmet_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SupremiumSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SupremiumSword",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "SupremiumPickaxe",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "SupremiumAxe",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "SupremiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_block_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SupremiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_sword_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SupremiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_pickaxe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SupremiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_axe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Arinium",
+      "type": "tab",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium",
+      "path": "~/creative tabs"
+    },
+    {
+      "name": "Utilities",
+      "type": "tab",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "utilities",
+      "path": "~/creative tabs"
+    },
+    {
+      "name": "DeadGrass",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_grass",
+      "path": "~/block"
+    },
+    {
+      "name": "DeadLog",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_log",
+      "path": "~/Flore"
+    },
+    {
+      "name": "DeadLeaves",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_leaves",
+      "path": "~/Flore"
+    },
+    {
+      "name": "DeadPlanks",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_planks",
+      "path": "~/block"
+    },
+    {
+      "name": "DeadPlanksRecipe",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_planks_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StickRecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stick_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "NetherFlower",
+      "type": "plant",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_flower",
+      "path": "~/Flore"
+    },
+    {
+      "name": "AriniumDynaRangedItemUsed",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_dyna_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "AriniumDyna",
+      "type": "gun",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_dyna",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AriniumDynaCraft",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_dyna_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Craft1",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_1",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Craft2",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "NetherBiome",
+      "type": "biome",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_biome",
+      "path": "~/biome_dimension"
+    },
+    {
+      "name": "WeirdBiome",
+      "type": "biome",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_biome",
+      "path": "~/biome_dimension"
+    },
+    {
+      "name": "BlueEndermenProcedure",
+      "type": "gui",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_endermen_procedure",
+      "path": "~/GUI"
+    },
+    {
+      "name": "WitherAspect",
+      "type": "enchantment",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_aspect",
+      "path": "~/enchantements"
+    },
+    {
+      "name": "WitherAspectProcedure",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_aspect_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "PoisonAspect",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poison_aspect_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "PlagueAspect",
+      "type": "enchantment",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plague_aspect",
+      "path": "~/enchantements"
+    },
+    {
+      "name": "PoisonAspect2",
+      "type": "procedure",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poison_aspect_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "PoisonAspect3",
+      "type": "procedure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poison_aspect_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Xp",
+      "type": "item",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp",
+      "path": "~/items"
+    },
+    {
+      "name": "Xpore",
+      "type": "block",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xpore",
+      "path": "~/block"
+    },
+    {
+      "name": "XpApple",
+      "type": "food",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_apple",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "XpAppleProcedure",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_apple_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "XpAppleRecipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_apple_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HumanMeat",
+      "type": "food",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "human_meat",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "CookedHumanMeat",
+      "type": "food",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_human_meat",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "RedBlock",
+      "type": "block",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_block",
+      "path": "~/block"
+    },
+    {
+      "name": "OrangeBlock",
+      "type": "block",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_block",
+      "path": "~/block"
+    },
+    {
+      "name": "YellowBlock",
+      "type": "block",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_block",
+      "path": "~/block"
+    },
+    {
+      "name": "GreenBlock",
+      "type": "block",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_block",
+      "path": "~/block"
+    },
+    {
+      "name": "LightBlueBlock",
+      "type": "block",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_blue_block",
+      "path": "~/block"
+    },
+    {
+      "name": "DarkBlueBlock",
+      "type": "block",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_blue_block",
+      "path": "~/block"
+    },
+    {
+      "name": "PurpleBlock",
+      "type": "block",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_block",
+      "path": "~/block"
+    },
+    {
+      "name": "PinkBlock",
+      "type": "block",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_block",
+      "path": "~/block"
+    },
+    {
+      "name": "MagmaGTunic",
+      "type": "armor",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_g_tunic",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "MagmaTunic",
+      "type": "procedure",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_tunic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "MagmaHelmet",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_helmet",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Magmachestplate",
+      "type": "recipe",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmachestplate",
+      "path": "~/recipe"
+    },
+    {
+      "name": "MagmaLeggings",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_leggings",
+      "path": "~/recipe"
+    },
+    {
+      "name": "MagmaBoots",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_boots",
+      "path": "~/recipe"
+    },
+    {
+      "name": "KILLPOTION",
+      "type": "food",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "killpotion",
+      "path": "~/Flore/Food"
+    },
+    {
+      "name": "KILLPOTOIN",
+      "type": "procedure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "killpotoin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "KILLPOTIONRECI",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "killpotionreci",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumNugget",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_nugget",
+      "path": "~/items"
+    },
+    {
+      "name": "AriniumNuggetRecipe",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_nugget_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Dfsdef",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dfsdef",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HUMAN",
+      "type": "loottable",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "human",
+      "path": "~/Loot table"
+    },
+    {
+      "name": "Human1",
+      "type": "loottable",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "human_1",
+      "path": "~/Loot table"
+    },
+    {
+      "name": "Human2",
+      "type": "loottable",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "human_2",
+      "path": "~/Loot table"
+    },
+    {
+      "name": "AquaGrass",
+      "type": "block",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aqua_grass",
+      "path": "~/block"
+    },
+    {
+      "name": "RedBlockR",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_block_r",
+      "path": "~/recipe"
+    },
+    {
+      "name": "OrangeBlockR",
+      "type": "recipe",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_block_r",
+      "path": "~/recipe"
+    },
+    {
+      "name": "YellowBlockR",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_block_r",
+      "path": "~/recipe"
+    },
+    {
+      "name": "GreenBlockR",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_block_r",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BlueBlockRecipe",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_block_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DarkBlueBlockRecipe",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_blue_block_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "PurpleBlockR",
+      "type": "recipe",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_block_r",
+      "path": "~/recipe"
+    },
+    {
+      "name": "PinkBlockR",
+      "type": "recipe",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_block_r",
+      "path": "~/recipe"
+    },
+    {
+      "name": "WaterBlock",
+      "type": "block",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_block",
+      "path": "~/block"
+    },
+    {
+      "name": "WaterBlockR",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_block_r",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AquaDimension",
+      "type": "dimension",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aqua_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/biome_dimension"
+    },
+    {
+      "name": "IgniterCraftxxx",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "igniter_craftxxx",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AquaBiome",
+      "type": "biome",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aqua_biome",
+      "path": "~/biome_dimension"
+    },
+    {
+      "name": "NetherCoalOre",
+      "type": "block",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_coal_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "NetherDiamondOre",
+      "type": "block",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_diamond_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "NetherEmeraldOre",
+      "type": "block",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_emerald_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "NetherIronOre",
+      "type": "block",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_iron_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "NetherLapisOre",
+      "type": "block",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_lapis_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "NetherRedstoneOre",
+      "type": "block",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_redstone_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "LapisLazuliNugget",
+      "type": "item",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis_lazuli_nugget",
+      "path": "~/items"
+    },
+    {
+      "name": "RedstoneNugget",
+      "type": "item",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_nugget",
+      "path": "~/items"
+    },
+    {
+      "name": "CoalNugget",
+      "type": "item",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_nugget",
+      "path": "~/items"
+    },
+    {
+      "name": "EmeraldNugget",
+      "type": "item",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_nugget",
+      "path": "~/items"
+    },
+    {
+      "name": "DiamondNugget",
+      "type": "item",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_nugget",
+      "path": "~/items"
+    },
+    {
+      "name": "Lapis",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Lapis2",
+      "type": "recipe",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Redstone",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Redstone2",
+      "type": "recipe",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Coal",
+      "type": "recipe",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Coal2",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Diamondaaa",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondaaa",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Diamond2",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Emeraldaa",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emeraldaa",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Emerald2",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Parasite",
+      "type": "mob",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "parasite",
+      "path": "~/mob_entity"
+    },
+    {
+      "name": "ParasiteQuandLentiteMeurt",
+      "type": "procedure",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "parasite_quand_lentite_meurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Supremium1",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_1",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Supremium2",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Supremium3",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_3",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Supremium4",
+      "type": "recipe",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_4",
+      "path": "~/recipe"
+    },
+    {
+      "name": "WoodenBulletSpear",
+      "type": "item",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_bullet_spear",
+      "path": "~/items"
+    },
+    {
+      "name": "StoneSpearBullet",
+      "type": "item",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_spear_bullet",
+      "path": "~/items"
+    },
+    {
+      "name": "IronSpearBullet",
+      "type": "item",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spear_bullet",
+      "path": "~/items"
+    },
+    {
+      "name": "GoldSpearBullet",
+      "type": "item",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_spear_bullet",
+      "path": "~/items"
+    },
+    {
+      "name": "DiamondSpearBullet",
+      "type": "item",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_spear_bullet",
+      "path": "~/items"
+    },
+    {
+      "name": "WoodSpear",
+      "type": "gun",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_spear",
+      "path": "~/Tools"
+    },
+    {
+      "name": "EmeraldSpearBullet",
+      "type": "item",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_spear_bullet",
+      "path": "~/items"
+    },
+    {
+      "name": "NetheriteSpearBullet",
+      "type": "item",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_spear_bullet",
+      "path": "~/items"
+    },
+    {
+      "name": "AriniumSpearBullet",
+      "type": "item",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_spear_bullet",
+      "path": "~/items"
+    },
+    {
+      "name": "SupremiumSpearBullet",
+      "type": "item",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_spear_bullet",
+      "path": "~/items"
+    },
+    {
+      "name": "StoneSpear",
+      "type": "gun",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_spear",
+      "path": "~/Tools"
+    },
+    {
+      "name": "IronSpear",
+      "type": "gun",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spear",
+      "path": "~/Tools"
+    },
+    {
+      "name": "GoldenSpear",
+      "type": "gun",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_spear",
+      "path": "~/Tools"
+    },
+    {
+      "name": "DiamondSpear",
+      "type": "gun",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_spear",
+      "path": "~/Tools"
+    },
+    {
+      "name": "EmeraldSpear",
+      "type": "gun",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_spear",
+      "path": "~/Tools"
+    },
+    {
+      "name": "NetheriteSpear",
+      "type": "gun",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_spear",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AriniumSpear",
+      "type": "gun",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_spear",
+      "path": "~/Tools"
+    },
+    {
+      "name": "SupremiumSpear",
+      "type": "gun",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_spear",
+      "path": "~/Tools"
+    },
+    {
+      "name": "WoodenSpearCraft",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_spear_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneSpearCraft",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_spear_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "IronSpearCraft",
+      "type": "recipe",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spear_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "GoldenSpearCraft",
+      "type": "recipe",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_spear_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DiamondSpearCraft",
+      "type": "recipe",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_spear_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "EmeraldSpearcraft",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_spearcraft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "NetheriteSpearCraft",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_spear_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AriniumSpearCraft",
+      "type": "recipe",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arinium_spear_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SupremiumSpearCraft",
+      "type": "recipe",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremium_spear_craft",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SpearsCooldown",
+      "type": "procedure",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spears_cooldown",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "bluebird",
+      "files": [
+        "idvbr1xqlis_naruto-shippuden-op-3-ikimono-gakari-blue-bird-"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.arinium.arinium_leaves": "Arinium Leaves",
+      "item.arinium.diamond_rod": "Diamond Rod",
+      "item.arinium.arinium_nugget": "Arinium Nugget",
+      "item.arinium.dark_axe": "Dark Arinium Axe",
+      "block.arinium.arinium_ore_ore": "Arinium Ore ",
+      "item.arinium.supremium_bow": "Supremium Bow",
+      "block.arinium.dark_stone": "Dark Bricks",
+      "item.arinium.blue_enderman_spawn_egg": "Blue Enderman Spawn Egg",
+      "item.arinium.end_bag": "End Bag",
+      "item.arinium.wood_spear": "Wooden Spear",
+      "entity.arinium.parasite": "Parasite",
+      "block.arinium.dead_planks": "Dead Planks",
+      "item.arinium_v.running_shoes_chestplate": "Running Shoes Body",
+      "item.arinium_v.arinium_armor_boots": "Arinium Boots",
+      "item.arinium.yellow_pearl": "Yellow Pearl",
+      "itemGroup.tabarinium": "Arinium",
+      "item.arinium_v.running_shoes_helmet": "Running Shoes Helmet",
+      "block.arinium.dark_brick_slab": "Dark Brick Slab",
+      "item.arinium.salt": "Salt",
+      "item.arinium.topaz": "Topaz",
+      "item.arinium.blue_bird": "Blue Bird",
+      "item.arinium.magma_g_tunic_boots": "Magma Boots",
+      "item.arinium_v.arinium_armor_helmet": "Arinium Helmet",
+      "block.arinium.red_block": "Red Block",
+      "item.arinium.rainbow_bucket": "Rainbow Bucket",
+      "entity.arinium.green_enderman": "Green Enderman",
+      "item.arinium.running_shoes_chestplate": "Running Shoes Body",
+      "item.arinium.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
+      "item.arinium.ariniumdust": "Arinium Dust",
+      "block.arinium.amethyst_slab": "Amethyst Slab",
+      "item.arinium.flamy_sword": "Flamy Sword",
+      "block.arinium.xpore": "Xpore",
+      "item.arinium.yellow_enderman_spawn_egg": "Yellow Enderman Spawn Egg",
+      "item.arinium_v.arinium_armor_leggings": "Arinium Leggings",
+      "block.arinium.dark_arinium_ore": "Dark Arinium Ore",
+      "block.arinium.bean_plant": "Bean Plant",
+      "item.arinium.supremium_sword": "Supremium Sword",
+      "item.arinium_v.arinium_axe": "Arinium Axe",
+      "item.arinium.wooden_bullet_spear": "Wooden Bullet Spear",
+      "item.arinium.dark_skeleton_spawn_egg": "Dark Skeleton Spawn Egg",
+      "item.arinium.arinium_armor_helmet": "Arinium Helmet",
+      "item.arinium.arinium_apple": "Arinium Apple",
+      "block.arinium.green_block": "Green Block",
+      "item.arinium.healing_wand": "Healing Wand",
+      "item.arinium_v.running_shoes_leggings": "Running Shoes Leggings",
+      "item.arinium.golden_shears": "Golden Shears",
+      "entity.arinium.creepy_the_creeper": "Creepy The Creeper",
+      "item.arinium_v.arinium_sword": "Arinium Sword",
+      "item.arinium.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.arinium.iron_spear": "Iron Spear",
+      "item.arinium.xp_apple": "Xp Apple",
+      "item.arinium_v.ariniumdust": "Arinium dust",
+      "item.arinium.amethyst_hammer": "Amethyst Hammer",
+      "item.arinium.supremium_armor_boots": "Supremium Boots",
+      "block.arinium.ametysthblock": "Amethyst Block",
+      "item.arinium.supremium_armor_helmet": "Supremium Helmet",
+      "item.arinium.dark_skeleton_bone": "Dark Skeleton Bone",
+      "block.arinium.nether_coal_ore": "Nether Coal Ore",
+      "advancements.arinium_advancement.title": "Arinium Advancement",
+      "item.arinium.arinium_sword": "Arinium Sword",
+      "block.arinium.dark_arinium_block": "Dark Arinium Block",
+      "block.arinium.dead_leaves": "Dead Leaves",
+      "item.arinium.water_wand": "Water Wand",
+      "item.arinium.green_enderman_spawn_egg": "Green Enderman Spawn Egg",
+      "fluid.rainbow": "Rainbow",
+      "item.arinium.blue_bird.desc": "Blue Bird from Naruto Shippuden - Oppening 3",
+      "item.arinium.arinium_spear_bullet": "Arinium Spear Bullet",
+      "itemGroup.tabutilities": "Other Items",
+      "item.arinium.steel": "Steel",
+      "block.arinium.cracked_dark_brick_stairs": "Cracked Dark Brick Stairs",
+      "block.arinium.corn_p_lant": "Corn Plant",
+      "block.arinium.topaz_ore": "Topaz Ore",
+      "item.arinium.dark_pickaxe": "Dark Arinium Pickaxe",
+      "item.arinium.magma_g_tunic_leggings": "Magma Leggings",
+      "item.arinium.ender_water_bucket": "EnderWater Bucket",
+      "item.arinium.black_matter_bucket": "BlackMatter Bucket",
+      "block.arinium.topaz_case": "Topaz Case",
+      "block.arinium.amethyst_ore": "Amethyst Ore",
+      "item.arinium.magma_g_tunic_helmet": "Magma Helmet",
+      "entity.arinium.shiba": "Shiba",
+      "item.arinium.xp": "Xp",
+      "block.arinium.cracked_dark_brick_slab": "Cracked Dark Brick Slab",
+      "item.arinium.supremium_axe": "Supremium Axe",
+      "item.arinium.netherite_spear_bullet": "Netherite Spear Bullet",
+      "item.arinium.amethyst_hoe": "Amethyst Hoe",
+      "block.arinium.amethyst_fence": "Amethyst Fence",
+      "item.arinium.killpotion": "KILLPOTION",
+      "item.arinium.salted_pop_corn": "Salted Pop Corn",
+      "item.arinium.dark_arinium_armor_chestplate": "Dark Arinium Chestplate",
+      "item.arinium.red_flint": "Red Flint",
+      "item.arinium.dark_arinium_armor_boots": "Dark Arinium Boots",
+      "item.arinium_v.bean": "Bean",
+      "block.arinium.dark_bricks_fence": "Dark Bricks Fence",
+      "block.arinium.steel_ore": "Steel Ore",
+      "item.arinium.supremium_ingot": "Supremium Ingot",
+      "item.arinium.arinium_spear": "Arinium Spear",
+      "item.arinium.supremium_armor_chestplate": "Supremium Chestplate",
+      "entity.arinium.yellow_enderman": "Yellow Enderman",
+      "block.arinium.bloddy_dark_brick_trapdoor": "Bloddy Dark Brick Trapdoor",
+      "biome.arinium.weird_biome": "Weird Biome",
+      "item.arinium.dagger": "Dagger",
+      "item.arinium.cooked_human_meat": "Cooked Human Meat",
+      "block.arinium.weird_grass_block": "Weird Grass Block",
+      "block.arinium.pink_block": "Pink Block",
+      "item.arinium.dark_arinium_armor_helmet": "Dark Arinium Helmet",
+      "item.arinium.stone_spear_bullet": "Stone Spear Bullet",
+      "block.arinium.orange_block": "Orange Block",
+      "item.arinium.pop_corn": "Pop Corn",
+      "entity.arinium.red_enderman": "Red Enderman",
+      "item.arinium.dark_arinium_armor_leggings": "Dark Arinium Leggings",
+      "entity.arinium.weird_villager": "Weird Villager",
+      "item.arinium.amethyst_axe": "Amethyst Axe",
+      "item.arinium.golden_spear": "Golden Spear",
+      "item.arinium.blue_pearl": "Blue Pearl",
+      "enchantment.arinium.wither_aspect": "Wither Aspect",
+      "item.arinium.netherite_spear": "Netherite Spear",
+      "fluid.black_matter": "BlackMatter",
+      "item.arinium_v.arinium_armor_chestplate": "Arinium Chestplate",
+      "enchantment.arinium.plague_aspect": "Plague Aspect",
+      "item.arinium.diamond_spear": "Diamond Spear",
+      "entity.arinium.dark_skeleton": "Dark Skeleton",
+      "item.arinium.red_pearl": "Red Pearl",
+      "item.arinium.supremium_armor_leggings": "Supremium Leggings",
+      "block.arinium.light_blue_block": "Light Blue Block",
+      "item.arinium.amethyst_shovel": "Amethyst Shovel",
+      "item.arinium.aqua_dimension": "Aqua Dimension Portal Igniter",
+      "block.arinium.mossy_dark_stone_slab": "Mossy Dark Brick Slab",
+      "item.arinium.creepy_the_creeper_spawn_egg": "Creepy The Creeper Spawn Egg",
+      "block.arinium.weird_cobblestone": "Weird Cobblestone",
+      "item.arinium.supremium_spear_bullet": "Supremium Spear Bullet",
+      "item.arinium.arinium_pickaxe": "Arinium Pickaxe",
+      "block.arinium.nether_flower": "Nether Flower",
+      "item.arinium.flamy_the_boss_spawn_egg": "Flamy The Boss Spawn Egg",
+      "item.arinium_v.arinium_pickaxe": "Arinium Pickaxe",
+      "item.arinium.iron_rod": "Iron Rod",
+      "biome.arinium.aqua_biome": "Aqua Biome",
+      "block.arinium.arinium_log": "Arinium Log",
+      "item.arinium.arinium_arrow_ne": "Arinium Arrow ",
+      "block.arinium.nether_diamond_ore": "Nether Diamond Ore",
+      "item.arinium.stone_spear": "Stone Spear",
+      "block.arinium.amethyst_stairs": "Amethyst Stairs",
+      "block.arinium.nether_lapis_ore": "Nether Lapis Ore",
+      "item.arinium.redstone_nugget": "Redstone Nugget",
+      "item.arinium.arinium_armor_chestplate": "Arinium Chestplate",
+      "item.arinium.blood_bottle": "Blood Bottle",
+      "item.arinium.gold_spear_bullet": "Gold Spear Bullet",
+      "item.arinium.red_enderman_spawn_egg": "Red Enderman Spawn Egg",
+      "block.arinium.cracked_dark_brick": "Cracked Dark Brick",
+      "item.arinium.emerald_spear": "Emerald Spear",
+      "item.arinium.arinium_armor_boots": "Arinium Boots",
+      "block.arinium.dark_bloody_brick_door": "Dark Bloody Brick Door",
+      "entity.arinium.blue_enderman": "Blue Enderman",
+      "biome.arinium.nether_biome": "Nether Biome",
+      "item.arinium_v.ender_water_bucket": "EnderWater Bucket",
+      "item.arinium.diamond_nugget": "Diamond Nugget",
+      "block.arinium.purple_block": "Purple Block",
+      "item.arinium_v.ariniumingot": "Arinium ingot",
+      "block.arinium.mossy_dark_stone": "Mossy Dark Brick",
+      "item.arinium.diamond_spear_bullet": "Diamond Spear Bullet",
+      "item.arinium.ariniumingot": "Arinium Ingot",
+      "block.arinium.arinium_planks": "Arinium Planks",
+      "item.arinium.emerald_spear_bullet": "Emerald Spear Bullet",
+      "item.arinium.bean": "Bean",
+      "block.arinium.weird_stone": "Weird Stone",
+      "item.arinium.parasite_spawn_egg": "Parasite Spawn Egg",
+      "item.arinium.weird_villager_spawn_egg": "Weird Villager Spawn Egg",
+      "block.arinium.water_block": "Water Block",
+      "block.arinium.dead_grass": "Dead Grass",
+      "item.arinium.emerald_nugget": "Emerald Nugget",
+      "item.arinium.corn": "Corn",
+      "block.arinium.mossy_dark_stone_stairs": "Mossy Dark Brick Stairs",
+      "item.arinium.supremium_pickaxe": "Supremium Pickaxe",
+      "item.arinium.arinium_armor_leggings": "Arinium Leggings",
+      "item.arinium.dark_sword": "Dark Arinium Sword",
+      "item.arinium.coal_nugget": "Coal Nugget",
+      "entity.arinium.flamy_the_boss": "Flamy The Boss",
+      "block.arinium.dark_blue_block": "Dark Blue Block",
+      "block.arinium.supremium_block": "Supremium Block",
+      "item.arinium.arinium_axe": "Arinium Axe",
+      "item.arinium.running_shoes_helmet": "Running Shoes Helmet",
+      "block.arinium_v.crying_obsidian": "Crying Obsidian",
+      "item.arinium.arinium_dyna": "Arinium Dynamite",
+      "block.arinium.amethyst_door": "Amethyst Door",
+      "block.arinium.dead_log": "Dead Log",
+      "item.arinium.running_shoes_boots": "Running Shoes",
+      "subtitles.bluebird": "",
+      "block.arinium.yellow_block": "Yellow Block",
+      "item.arinium.iron_spear_bullet": "Iron Spear Bullet",
+      "item.arinium.supremium_spear": "Supremium Spear",
+      "block.arinium.weird_grass": "Weird Grass",
+      "item.arinium.sweet_pop_corn": "Sweet Pop Corn",
+      "item.arinium.running_shoes_leggings": "Running Shoes Leggings",
+      "item.arinium.cobble_destroyer_bag": "Cobble Destroyer Bag",
+      "item.arinium.unpurified_supremium": "Unpurified Supremium",
+      "item.arinium.amethyst": "Amethyst",
+      "item.arinium.red_feather": "Red Feather",
+      "item.arinium.magma_g_tunic_chestplate": "Magma Chestplate",
+      "item.arinium.green_pearl": "Green Pearl",
+      "block.arinium.dark_brick_stairs": "Dark Brick Stairs",
+      "block.arinium.nether_iron_ore": "Nether Iron Ore",
+      "block.arinium.nether_emerald_ore": "Nether Emerald Ore",
+      "block.arinium.oak_case": "Oak Case",
+      "block.arinium_v.bean_plant": "Bean Plant",
+      "item.arinium.unpurified_supremium_2": "Unpurified Supremium 2",
+      "item.arinium.dark_arinium_ingot": "Dark Arinium ",
+      "block.arinium.aqua_grass": "Aqua Grass",
+      "item.arinium.unpurified_supremium_1": "Unpurified Supremium 1",
+      "item.arinium_v.running_shoes_boots": "Running Shoes Boots",
+      "block.arinium.tall_weird_grass": "Tall Weird Grass",
+      "advancements.arinium_advancement.descr": "GG, u finally get Arinium !",
+      "block.arinium_v.arinium_ore_ore": "Arinium Ore ",
+      "fluid.ender_water": "EnderWater",
+      "item.arinium.shiba_spawn_egg": "Shiba Spawn Egg",
+      "block.arinium.nether_redstone_ore": "Nether Redstone Ore",
+      "item.arinium.human_meat": "Human Meat"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "recipe",
+        "children": []
+      },
+      {
+        "name": "procedure",
+        "children": []
+      },
+      {
+        "name": "mob_entity",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "block",
+        "children": []
+      },
+      {
+        "name": "Flore",
+        "children": [
+          {
+            "name": "Food",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Structure",
+        "children": []
+      },
+      {
+        "name": "enchantements",
+        "children": []
+      },
+      {
+        "name": "advancements",
+        "children": []
+      },
+      {
+        "name": "particles",
+        "children": []
+      },
+      {
+        "name": "creative tabs",
+        "children": []
+      },
+      {
+        "name": "biome_dimension",
+        "children": []
+      },
+      {
+        "name": "fluid",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "Loot table",
+        "children": []
+      },
+      {
+        "name": "effects",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "arinium",
+    "modName": "Arinium",
+    "version": "3.0.0",
+    "author": "Nasakyuu",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.arinium",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100116710
+}

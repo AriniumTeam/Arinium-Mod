@@ -1,0 +1,16 @@
+{
+  "group": "arinium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "arinium:dead_log"
+    }
+  },
+  "result": {
+    "item": "arinium:dead_planks",
+    "count": 4
+  }
+}
