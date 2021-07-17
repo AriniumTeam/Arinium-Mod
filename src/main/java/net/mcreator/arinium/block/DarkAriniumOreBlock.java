@@ -27,18 +27,23 @@ import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.arinium.procedures.DarkAriniumPickaxeProcedure;
 import net.mcreator.arinium.itemgroup.AriniumItemGroup;
 import net.mcreator.arinium.item.DarkAriniumIngotItem;
 import net.mcreator.arinium.AriniumModElements;
 
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 @AriniumModElements.ModElement.Tag
@@ -68,6 +73,20 @@ public class DarkAriniumOreBlock extends AriniumModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(DarkAriniumIngotItem.block, (int) (1)));
+		}
+
+		@Override
+		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				DarkAriniumPickaxeProcedure.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -104,7 +123,7 @@ public class DarkAriniumOreBlock extends AriniumModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(256)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(12)
 					.square().func_242731_b(10);
 			event.getRegistry().register(feature.setRegistryName("dark_arinium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("arinium:dark_arinium_ore"), configuredFeature);
@@ -112,9 +131,6 @@ public class DarkAriniumOreBlock extends AriniumModElements.ModElement {
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		boolean biomeCriteria = false;
-		if (!biomeCriteria)
-			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

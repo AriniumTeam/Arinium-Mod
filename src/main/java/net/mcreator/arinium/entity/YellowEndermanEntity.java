@@ -43,7 +43,9 @@ import net.mcreator.arinium.AriniumModElements;
 
 @AriniumModElements.ModElement.Tag
 public class YellowEndermanEntity extends AriniumModElements.ModElement {
-	public static EntityType entity = null;
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
+			.size(0.6f, 1.8f)).build("yellow_enderman").setRegistryName("yellow_enderman");
 	public YellowEndermanEntity(AriniumModElements instance) {
 		super(instance, 115);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new YellowEndermanRenderer.ModelRegisterHandler());
@@ -53,9 +55,6 @@ public class YellowEndermanEntity extends AriniumModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("yellow_enderman")
-						.setRegistryName("yellow_enderman");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -16777216, -256, new Item.Properties().group(UtilitiesItemGroup.tab))
 				.setRegistryName("yellow_enderman_spawn_egg"));

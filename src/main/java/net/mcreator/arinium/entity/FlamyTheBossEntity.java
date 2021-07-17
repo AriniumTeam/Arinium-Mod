@@ -41,7 +41,9 @@ import java.util.HashMap;
 
 @AriniumModElements.ModElement.Tag
 public class FlamyTheBossEntity extends AriniumModElements.ModElement {
-	public static EntityType entity = null;
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
+			.size(0.6f, 1.8f)).build("flamy_the_boss").setRegistryName("flamy_the_boss");
 	public FlamyTheBossEntity(AriniumModElements instance) {
 		super(instance, 109);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FlamyTheBossRenderer.ModelRegisterHandler());
@@ -50,9 +52,6 @@ public class FlamyTheBossEntity extends AriniumModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
-						.build("flamy_the_boss").setRegistryName("flamy_the_boss");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -65536, -256, new Item.Properties().group(UtilitiesItemGroup.tab))
 				.setRegistryName("flamy_the_boss_spawn_egg"));

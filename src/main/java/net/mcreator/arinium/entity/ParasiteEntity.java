@@ -42,7 +42,9 @@ import java.util.HashMap;
 
 @AriniumModElements.ModElement.Tag
 public class ParasiteEntity extends AriniumModElements.ModElement {
-	public static EntityType entity = null;
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
+			.size(0.6f, 1.7f)).build("parasite").setRegistryName("parasite");
 	public ParasiteEntity(AriniumModElements instance) {
 		super(instance, 334);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ParasiteRenderer.ModelRegisterHandler());
@@ -51,9 +53,6 @@ public class ParasiteEntity extends AriniumModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.7f))
-						.build("parasite").setRegistryName("parasite");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -6750208, -16777063, new Item.Properties().group(UtilitiesItemGroup.tab))
 				.setRegistryName("parasite_spawn_egg"));

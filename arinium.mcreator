@@ -3793,6 +3793,52 @@
         ]
       },
       "path": "~/procedure"
+    },
+    {
+      "name": "DarkAriniumAchievement",
+      "type": "achievement",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_achievement",
+      "path": "~/advancements"
+    },
+    {
+      "name": "DarkAriniumPickaxe",
+      "type": "procedure",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_pickaxe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "DarkAriniumEffect",
+      "type": "procedure",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_arinium_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
     }
   ],
   "variable_elements": [],
@@ -3822,8 +3868,8 @@
       "block.arinium.dead_planks": "Dead Planks",
       "item.arinium_v.running_shoes_chestplate": "Running Shoes Body",
       "item.arinium_v.arinium_armor_boots": "Arinium Boots",
-      "item.arinium.yellow_pearl": "Yellow Pearl",
       "itemGroup.tabarinium": "Arinium",
+      "item.arinium.yellow_pearl": "Yellow Pearl",
       "item.arinium_v.running_shoes_helmet": "Running Shoes Helmet",
       "block.arinium.dark_brick_slab": "Dark Brick Slab",
       "item.arinium.salt": "Salt",
@@ -3836,8 +3882,8 @@
       "entity.arinium.green_enderman": "Green Enderman",
       "item.arinium.running_shoes_chestplate": "Running Shoes Body",
       "item.arinium.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
-      "item.arinium.ariniumdust": "Arinium Dust",
       "block.arinium.amethyst_slab": "Amethyst Slab",
+      "item.arinium.ariniumdust": "Arinium Dust",
       "item.arinium.flamy_sword": "Flamy Sword",
       "block.arinium.xpore": "Xpore",
       "item.arinium.yellow_enderman_spawn_egg": "Yellow Enderman Spawn Egg",
@@ -3863,9 +3909,9 @@
       "item.arinium.amethyst_hammer": "Amethyst Hammer",
       "item.arinium.supremium_armor_boots": "Supremium Boots",
       "block.arinium.ametysthblock": "Amethyst Block",
-      "item.arinium.supremium_armor_helmet": "Supremium Helmet",
-      "item.arinium.dark_skeleton_bone": "Dark Skeleton Bone",
       "block.arinium.nether_coal_ore": "Nether Coal Ore",
+      "item.arinium.dark_skeleton_bone": "Dark Skeleton Bone",
+      "item.arinium.supremium_armor_helmet": "Supremium Helmet",
       "advancements.arinium_advancement.title": "Arinium Advancement",
       "item.arinium.arinium_sword": "Arinium Sword",
       "block.arinium.dark_arinium_block": "Dark Arinium Block",
@@ -3873,8 +3919,8 @@
       "item.arinium.water_wand": "Water Wand",
       "item.arinium.green_enderman_spawn_egg": "Green Enderman Spawn Egg",
       "fluid.rainbow": "Rainbow",
-      "item.arinium.blue_bird.desc": "Blue Bird from Naruto Shippuden - Oppening 3",
       "item.arinium.arinium_spear_bullet": "Arinium Spear Bullet",
+      "item.arinium.blue_bird.desc": "Blue Bird from Naruto Shippuden - Oppening 3",
       "itemGroup.tabutilities": "Other Items",
       "item.arinium.steel": "Steel",
       "block.arinium.cracked_dark_brick_stairs": "Cracked Dark Brick Stairs",
@@ -3887,6 +3933,7 @@
       "block.arinium.topaz_case": "Topaz Case",
       "block.arinium.amethyst_ore": "Amethyst Ore",
       "item.arinium.magma_g_tunic_helmet": "Magma Helmet",
+      "advancements.dark_arinium_achievement.title": "Its Coal ?",
       "entity.arinium.shiba": "Shiba",
       "item.arinium.xp": "Xp",
       "block.arinium.cracked_dark_brick_slab": "Cracked Dark Brick Slab",
@@ -3942,6 +3989,7 @@
       "block.arinium.nether_flower": "Nether Flower",
       "item.arinium.flamy_the_boss_spawn_egg": "Flamy The Boss Spawn Egg",
       "item.arinium_v.arinium_pickaxe": "Arinium Pickaxe",
+      "advancements.dark_arinium_achievement.descr": "Gg, finally found Dark Arinium !",
       "item.arinium.iron_rod": "Iron Rod",
       "biome.arinium.aqua_biome": "Aqua Biome",
       "block.arinium.arinium_log": "Arinium Log",
@@ -4125,5 +4173,5 @@
     "modElementsPackage": "net.mcreator.arinium",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100116710
+  "mcreatorVersion": 202100118117
 }

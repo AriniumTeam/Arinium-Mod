@@ -32,7 +32,9 @@ import net.mcreator.arinium.AriniumModElements;
 
 @AriniumModElements.ModElement.Tag
 public class WeirdVillagerEntity extends AriniumModElements.ModElement {
-	public static EntityType entity = null;
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
+			.size(0.6f, 1.8f)).build("weird_villager").setRegistryName("weird_villager");
 	public WeirdVillagerEntity(AriniumModElements instance) {
 		super(instance, 108);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WeirdVillagerRenderer.ModelRegisterHandler());
@@ -41,9 +43,6 @@ public class WeirdVillagerEntity extends AriniumModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("weird_villager")
-						.setRegistryName("weird_villager");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -3342388, -1, new Item.Properties().group(UtilitiesItemGroup.tab))
 				.setRegistryName("weird_villager_spawn_egg"));

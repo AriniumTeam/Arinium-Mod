@@ -44,7 +44,9 @@ import net.mcreator.arinium.AriniumModElements;
 
 @AriniumModElements.ModElement.Tag
 public class DarkSkeletonEntity extends AriniumModElements.ModElement {
-	public static EntityType entity = null;
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
+			.size(0.6f, 1.8f)).build("dark_skeleton").setRegistryName("dark_skeleton");
 	public DarkSkeletonEntity(AriniumModElements instance) {
 		super(instance, 112);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DarkSkeletonRenderer.ModelRegisterHandler());
@@ -53,9 +55,6 @@ public class DarkSkeletonEntity extends AriniumModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
-						.build("dark_skeleton").setRegistryName("dark_skeleton");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -6750055, -65536, new Item.Properties().group(UtilitiesItemGroup.tab))
 				.setRegistryName("dark_skeleton_spawn_egg"));

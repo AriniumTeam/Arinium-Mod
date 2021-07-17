@@ -54,7 +54,9 @@ import net.mcreator.arinium.AriniumModElements;
 
 @AriniumModElements.ModElement.Tag
 public class ShibaEntity extends AriniumModElements.ModElement {
-	public static EntityType entity = null;
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
+			.size(0.6f, 1.8f)).build("shiba").setRegistryName("shiba");
 	public ShibaEntity(AriniumModElements instance) {
 		super(instance, 110);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShibaRenderer.ModelRegisterHandler());
@@ -64,9 +66,6 @@ public class ShibaEntity extends AriniumModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("shiba")
-						.setRegistryName("shiba");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -26266, -26266, new Item.Properties().group(UtilitiesItemGroup.tab))
 				.setRegistryName("shiba_spawn_egg"));

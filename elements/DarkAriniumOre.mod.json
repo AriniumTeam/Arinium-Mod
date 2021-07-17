@@ -101,14 +101,13 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "DarkAriniumPickaxe"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:AriniumBiome"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
@@ -117,6 +116,6 @@
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 4,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 256
+    "maxGenerateHeight": 12
   }
 }

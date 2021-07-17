@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "darkarinium_helmet",
+    "textureHelmet": "diamond_helmet",
     "enableBody": true,
-    "textureBody": "darkarinium_chestplate",
+    "textureBody": "diamond_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "darkarinium_leggings",
+    "textureLeggings": "diamond_leggings",
     "enableBoots": true,
-    "textureBoots": "darkarinium_boots",
+    "textureBoots": "diamond_boots",
     "onHelmetTick": {
       "name": "AriniumHelmetProcedure"
     },
@@ -25,7 +25,7 @@
     "creativeTab": {
       "value": "CUSTOM:Arinium"
     },
-    "armorTextureFile": "darkarinium_",
+    "armorTextureFile": "diamond_",
     "helmetName": "Dark Arinium Helmet",
     "bodyName": "Dark Arinium Chestplate",
     "leggingsName": "Dark Arinium Leggings",

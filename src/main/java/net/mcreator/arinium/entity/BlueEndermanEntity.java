@@ -68,7 +68,9 @@ import io.netty.buffer.Unpooled;
 
 @AriniumModElements.ModElement.Tag
 public class BlueEndermanEntity extends AriniumModElements.ModElement {
-	public static EntityType entity = null;
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
+			.size(0.6f, 1.8f)).build("blue_enderman").setRegistryName("blue_enderman");
 	public BlueEndermanEntity(AriniumModElements instance) {
 		super(instance, 113);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlueEndermanRenderer.ModelRegisterHandler());
@@ -78,9 +80,6 @@ public class BlueEndermanEntity extends AriniumModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("blue_enderman")
-						.setRegistryName("blue_enderman");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -16777216, -16777012, new Item.Properties().group(UtilitiesItemGroup.tab))
 				.setRegistryName("blue_enderman_spawn_egg"));

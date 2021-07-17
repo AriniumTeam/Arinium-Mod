@@ -50,7 +50,7 @@ public class DarkSwordItem extends AriniumModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(DarkAriniumIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(DarkAriniumIngotItem.block, (int) (1)), new ItemStack(DarkSwordItem.block, (int) (1)));
 			}
 		}, 3, -2.5f, new Item.Properties().group(AriniumItemGroup.tab)) {
 			@Override

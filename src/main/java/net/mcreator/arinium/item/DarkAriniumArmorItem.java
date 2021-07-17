@@ -88,7 +88,7 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AriniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "arinium:textures/models/armor/darkarinium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "arinium:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
 			@Override
@@ -107,7 +107,7 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AriniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "arinium:textures/models/armor/darkarinium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "arinium:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
 			@Override
@@ -125,7 +125,7 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AriniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "arinium:textures/models/armor/darkarinium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "arinium:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
 			@Override
@@ -143,7 +143,7 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AriniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "arinium:textures/models/armor/darkarinium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "arinium:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
 			@Override

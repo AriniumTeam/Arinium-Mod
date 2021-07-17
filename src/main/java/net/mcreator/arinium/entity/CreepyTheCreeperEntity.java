@@ -46,7 +46,9 @@ import net.mcreator.arinium.AriniumModElements;
 
 @AriniumModElements.ModElement.Tag
 public class CreepyTheCreeperEntity extends AriniumModElements.ModElement {
-	public static EntityType entity = null;
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(2000).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
+			.immuneToFire().size(0.6f, 1.7f)).build("creepy_the_creeper").setRegistryName("creepy_the_creeper");
 	public CreepyTheCreeperEntity(AriniumModElements instance) {
 		super(instance, 111);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CreepyTheCreeperRenderer.ModelRegisterHandler());
@@ -56,9 +58,6 @@ public class CreepyTheCreeperEntity extends AriniumModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(2000).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.7f))
-						.build("creepy_the_creeper").setRegistryName("creepy_the_creeper");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -16777216, -65536, new Item.Properties().group(UtilitiesItemGroup.tab))
 				.setRegistryName("creepy_the_creeper_spawn_egg"));

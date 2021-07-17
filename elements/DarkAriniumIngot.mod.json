@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "darkarinium",
+    "texture": "diamond",
     "customModelName": "Normal",
     "name": "Dark Arinium ",
     "rarity": "UNCOMMON",

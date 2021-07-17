@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "darkarinium_axe",
+    "texture": "diamond_axe",
     "customModelName": "Normal",
     "name": "Dark Arinium Axe",
     "specialInfo": [],

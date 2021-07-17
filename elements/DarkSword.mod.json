@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "darkarinium_sword",
+    "texture": "diamond_sword",
     "customModelName": "Normal",
     "name": "Dark Arinium Sword",
     "specialInfo": [],
@@ -22,6 +22,9 @@
     "repairItems": [
       {
         "value": "CUSTOM:DarkAriniumIngot"
+      },
+      {
+        "value": "CUSTOM:DarkSword"
       }
     ],
     "immuneToFire": false,
