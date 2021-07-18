@@ -23,7 +23,7 @@ public class AmetysthblockBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:ametysthblock")
 	public static final Block block = null;
 	public AmetysthblockBlock(AriniumModElements instance) {
-		super(instance, 31);
+		super(instance, 32);
 	}
 
 	@Override

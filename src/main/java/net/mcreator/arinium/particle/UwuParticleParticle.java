@@ -24,7 +24,7 @@ import net.mcreator.arinium.AriniumModElements;
 public class UwuParticleParticle extends AriniumModElements.ModElement {
 	public static final BasicParticleType particle = new BasicParticleType(false);
 	public UwuParticleParticle(AriniumModElements instance) {
-		super(instance, 160);
+		super(instance, 191);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -23,7 +23,7 @@ public class DarkBlueBlockBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_blue_block")
 	public static final Block block = null;
 	public DarkBlueBlockBlock(AriniumModElements instance) {
-		super(instance, 282);
+		super(instance, 122);
 	}
 
 	@Override

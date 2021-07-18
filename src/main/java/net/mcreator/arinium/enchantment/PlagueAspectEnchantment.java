@@ -14,7 +14,7 @@ public class PlagueAspectEnchantment extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:plague_aspect")
 	public static final Enchantment enchantment = null;
 	public PlagueAspectEnchantment(AriniumModElements instance) {
-		super(instance, 262);
+		super(instance, 279);
 	}
 
 	@Override

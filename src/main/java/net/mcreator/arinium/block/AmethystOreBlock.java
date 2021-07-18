@@ -46,7 +46,7 @@ public class AmethystOreBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:amethyst_ore")
 	public static final Block block = null;
 	public AmethystOreBlock(AriniumModElements instance) {
-		super(instance, 30);
+		super(instance, 31);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

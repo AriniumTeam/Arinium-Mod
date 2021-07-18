@@ -17,7 +17,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class AmethystHammerProcedureProcedure extends AriniumModElements.ModElement {
 	public AmethystHammerProcedureProcedure(AriniumModElements instance) {
-		super(instance, 226);
+		super(instance, 247);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

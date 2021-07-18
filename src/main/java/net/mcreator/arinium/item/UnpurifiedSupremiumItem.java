@@ -16,7 +16,7 @@ public class UnpurifiedSupremiumItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:unpurified_supremium")
 	public static final Item block = null;
 	public UnpurifiedSupremiumItem(AriniumModElements instance) {
-		super(instance, 74);
+		super(instance, 75);
 	}
 
 	@Override

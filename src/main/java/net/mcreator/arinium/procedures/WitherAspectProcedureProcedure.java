@@ -22,7 +22,7 @@ import java.util.HashMap;
 @AriniumModElements.ModElement.Tag
 public class WitherAspectProcedureProcedure extends AriniumModElements.ModElement {
 	public WitherAspectProcedureProcedure(AriniumModElements instance) {
-		super(instance, 260);
+		super(instance, 277);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -24,7 +24,7 @@ public class AquaGrassBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:aqua_grass")
 	public static final Block block = null;
 	public AquaGrassBlock(AriniumModElements instance) {
-		super(instance, 299);
+		super(instance, 127);
 	}
 
 	@Override

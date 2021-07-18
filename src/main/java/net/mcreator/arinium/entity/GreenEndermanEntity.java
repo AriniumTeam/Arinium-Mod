@@ -49,7 +49,7 @@ public class GreenEndermanEntity extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.6f, 1.8f)).build("green_enderman").setRegistryName("green_enderman");
 	public GreenEndermanEntity(AriniumModElements instance) {
-		super(instance, 107);
+		super(instance, 103);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GreenEndermanRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

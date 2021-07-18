@@ -16,7 +16,7 @@ public class AriniumNuggetItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:arinium_nugget")
 	public static final Item block = null;
 	public AriniumNuggetItem(AriniumModElements instance) {
-		super(instance, 293);
+		super(instance, 13);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class DarkDungeonStructure extends AriniumModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public DarkDungeonStructure(AriniumModElements instance) {
-		super(instance, 170);
+		super(instance, 201);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

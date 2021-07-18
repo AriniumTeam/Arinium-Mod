@@ -15,7 +15,7 @@ public class SupremiumSpearBulletItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:supremium_spear_bullet")
 	public static final Item block = null;
 	public SupremiumSpearBulletItem(AriniumModElements instance) {
-		super(instance, 349);
+		super(instance, 330);
 	}
 
 	@Override

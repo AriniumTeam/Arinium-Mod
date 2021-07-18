@@ -50,7 +50,7 @@ public class EndBagItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:end_bag")
 	public static final Item block = null;
 	public EndBagItem(AriniumModElements instance) {
-		super(instance, 45);
+		super(instance, 46);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -16,7 +16,7 @@ public class LapisLazuliNuggetItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:lapis_lazuli_nugget")
 	public static final Item block = null;
 	public LapisLazuliNuggetItem(AriniumModElements instance) {
-		super(instance, 319);
+		super(instance, 136);
 	}
 
 	@Override

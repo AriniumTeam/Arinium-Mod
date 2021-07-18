@@ -35,7 +35,7 @@ public class RunningShoesItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:running_shoes_boots")
 	public static final Item boots = null;
 	public RunningShoesItem(AriniumModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 	}
 
 	@Override

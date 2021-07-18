@@ -31,7 +31,7 @@ import net.mcreator.arinium.AriniumModElements;
 public class WeirdBiomeBiome extends AriniumModElements.ModElement {
 	public static Biome biome;
 	public WeirdBiomeBiome(AriniumModElements instance) {
-		super(instance, 257);
+		super(instance, 274);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

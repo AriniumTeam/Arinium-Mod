@@ -53,7 +53,7 @@ public class NetheriteSpearItem extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletnetherite_spear").setRegistryName("entitybulletnetherite_spear");
 	public NetheriteSpearItem(AriniumModElements instance) {
-		super(instance, 355);
+		super(instance, 148);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NetheriteSpearRenderer.ModelRegisterHandler());
 	}
 

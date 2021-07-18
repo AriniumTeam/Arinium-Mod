@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Arinium"
+      "value": "CUSTOM:DarkArinium"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -101,9 +101,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "DarkAriniumPickaxe"
-    },
     "spawnWorldTypes": [
       "Surface"
     ],

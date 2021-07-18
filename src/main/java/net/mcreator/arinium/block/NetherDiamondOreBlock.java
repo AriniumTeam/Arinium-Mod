@@ -46,7 +46,7 @@ public class NetherDiamondOreBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:nether_diamond_ore")
 	public static final Block block = null;
 	public NetherDiamondOreBlock(AriniumModElements instance) {
-		super(instance, 314);
+		super(instance, 131);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
-import net.mcreator.arinium.itemgroup.AriniumItemGroup;
+import net.mcreator.arinium.itemgroup.DarkAriniumItemGroup;
 import net.mcreator.arinium.AriniumModElements;
 
 @AriniumModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class DarkAxeItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_axe")
 	public static final Item block = null;
 	public DarkAxeItem(AriniumModElements instance) {
-		super(instance, 17);
+		super(instance, 21);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class DarkAxeItem extends AriniumModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(DarkAriniumIngotItem.block, (int) (1)));
 			}
-		}, 1, -3.4f, new Item.Properties().group(AriniumItemGroup.tab)) {
+		}, 1, -3.4f, new Item.Properties().group(DarkAriniumItemGroup.tab)) {
 		}.setRegistryName("dark_axe"));
 	}
 }

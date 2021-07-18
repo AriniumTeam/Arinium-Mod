@@ -55,7 +55,7 @@ public class NetherFlowerBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:nether_flower")
 	public static final Block block = null;
 	public NetherFlowerBlock(AriniumModElements instance) {
-		super(instance, 104);
+		super(instance, 102);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

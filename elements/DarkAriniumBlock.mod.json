@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Arinium"
+      "value": "CUSTOM:DarkArinium"
     },
     "destroyTool": "Not specified",
     "customDrop": {

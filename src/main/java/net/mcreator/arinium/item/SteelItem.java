@@ -16,7 +16,7 @@ public class SteelItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:steel")
 	public static final Item block = null;
 	public SteelItem(AriniumModElements instance) {
-		super(instance, 72);
+		super(instance, 73);
 	}
 
 	@Override

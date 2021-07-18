@@ -16,7 +16,7 @@ public class EmeraldNuggetItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:emerald_nugget")
 	public static final Item block = null;
 	public EmeraldNuggetItem(AriniumModElements instance) {
-		super(instance, 322);
+		super(instance, 139);
 	}
 
 	@Override

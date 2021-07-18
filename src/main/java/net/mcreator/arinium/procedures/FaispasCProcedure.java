@@ -15,7 +15,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class FaispasCProcedure extends AriniumModElements.ModElement {
 	public FaispasCProcedure(AriniumModElements instance) {
-		super(instance, 234);
+		super(instance, 255);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

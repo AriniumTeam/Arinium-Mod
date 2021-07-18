@@ -11,19 +11,19 @@
     "enableBoots": true,
     "textureBoots": "diamond_boots",
     "onHelmetTick": {
-      "name": "AriniumHelmetProcedure"
+      "name": "DANightVision"
     },
     "onBodyTick": {
-      "name": "AriniumChestplateProcedure"
+      "name": "DAHealthBoost"
     },
     "onLeggingsTick": {
-      "name": "AriniumLeggingsProcedure"
+      "name": "DAFireResistance"
     },
     "onBootsTick": {
-      "name": "AriniumBootsProcedure"
+      "name": "DASpeed"
     },
     "creativeTab": {
-      "value": "CUSTOM:Arinium"
+      "value": "CUSTOM:DarkArinium"
     },
     "armorTextureFile": "diamond_",
     "helmetName": "Dark Arinium Helmet",

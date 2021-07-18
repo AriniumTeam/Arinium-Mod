@@ -33,7 +33,7 @@ public class AmethystFenceBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:amethyst_fence")
 	public static final Block block = null;
 	public AmethystFenceBlock(AriniumModElements instance) {
-		super(instance, 34);
+		super(instance, 35);
 	}
 
 	@Override

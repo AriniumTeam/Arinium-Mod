@@ -58,7 +58,7 @@ public class TallWeirdGrassBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:tall_weird_grass")
 	public static final Block block = null;
 	public TallWeirdGrassBlock(AriniumModElements instance) {
-		super(instance, 83);
+		super(instance, 82);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

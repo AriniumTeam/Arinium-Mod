@@ -38,7 +38,7 @@ import net.mcreator.arinium.AriniumModElements;
 public class AquaBiomeBiome extends AriniumModElements.ModElement {
 	public static Biome biome;
 	public AquaBiomeBiome(AriniumModElements instance) {
-		super(instance, 311);
+		super(instance, 306);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

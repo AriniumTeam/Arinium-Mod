@@ -23,7 +23,7 @@ public class WaterBlockBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:water_block")
 	public static final Block block = null;
 	public WaterBlockBlock(AriniumModElements instance) {
-		super(instance, 308);
+		super(instance, 129);
 	}
 
 	@Override

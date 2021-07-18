@@ -71,7 +71,7 @@ public class OakCaseBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:oak_case")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public OakCaseBlock(AriniumModElements instance) {
-		super(instance, 37);
+		super(instance, 38);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

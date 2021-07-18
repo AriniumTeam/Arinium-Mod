@@ -13,7 +13,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class SweetPopCornProcedureProcedure extends AriniumModElements.ModElement {
 	public SweetPopCornProcedureProcedure(AriniumModElements instance) {
-		super(instance, 140);
+		super(instance, 172);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

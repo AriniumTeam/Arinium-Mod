@@ -16,7 +16,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class HealingWandProcedureProcedure extends AriniumModElements.ModElement {
 	public HealingWandProcedureProcedure(AriniumModElements instance) {
-		super(instance, 158);
+		super(instance, 189);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

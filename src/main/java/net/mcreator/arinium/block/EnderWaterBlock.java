@@ -59,7 +59,7 @@ public class EnderWaterBlock extends AriniumModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public EnderWaterBlock(AriniumModElements instance) {
-		super(instance, 21);
+		super(instance, 22);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());

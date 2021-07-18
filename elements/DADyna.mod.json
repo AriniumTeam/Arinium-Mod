@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "dadyna",
+    "customModelName": "Normal",
+    "name": "Dark Arinium Dynamite",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DarkArinium"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 15,
+    "actionSound": {
+      "value": "entity.creeper.primed"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:DADyna"
+    },
+    "bulletModel": "ModelAriniumDyna",
+    "customBulletModelTexture": "ariniumdynatexture.png",
+    "onBulletHitsBlock": {
+      "name": "AriniumDynaRangedItemUsed"
+    }
+  }
+}

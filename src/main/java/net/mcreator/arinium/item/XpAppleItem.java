@@ -23,7 +23,7 @@ public class XpAppleItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:xp_apple")
 	public static final Item block = null;
 	public XpAppleItem(AriniumModElements instance) {
-		super(instance, 269);
+		super(instance, 114);
 	}
 
 	@Override

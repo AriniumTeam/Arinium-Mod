@@ -16,7 +16,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class FlamyTheBossProcedureProcedure extends AriniumModElements.ModElement {
 	public FlamyTheBossProcedureProcedure(AriniumModElements instance) {
-		super(instance, 169);
+		super(instance, 200);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

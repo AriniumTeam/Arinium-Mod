@@ -16,7 +16,7 @@ public class DarkSkeletonBoneItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_skeleton_bone")
 	public static final Item block = null;
 	public DarkSkeletonBoneItem(AriniumModElements instance) {
-		super(instance, 54);
+		super(instance, 55);
 	}
 
 	@Override

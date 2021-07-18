@@ -58,7 +58,7 @@ public class BeanPlantBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:bean_plant")
 	public static final Block block = null;
 	public BeanPlantBlock(AriniumModElements instance) {
-		super(instance, 24);
+		super(instance, 25);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -16,7 +16,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class DaggerProcedureProcedure extends AriniumModElements.ModElement {
 	public DaggerProcedureProcedure(AriniumModElements instance) {
-		super(instance, 172);
+		super(instance, 203);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

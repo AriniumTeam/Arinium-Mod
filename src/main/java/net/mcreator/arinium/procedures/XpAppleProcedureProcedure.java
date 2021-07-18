@@ -11,7 +11,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class XpAppleProcedureProcedure extends AriniumModElements.ModElement {
 	public XpAppleProcedureProcedure(AriniumModElements instance) {
-		super(instance, 270);
+		super(instance, 282);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -27,23 +27,18 @@ import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.fluid.FluidState;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.arinium.procedures.DarkAriniumPickaxeProcedure;
-import net.mcreator.arinium.itemgroup.AriniumItemGroup;
+import net.mcreator.arinium.itemgroup.DarkAriniumItemGroup;
 import net.mcreator.arinium.item.DarkAriniumIngotItem;
 import net.mcreator.arinium.AriniumModElements;
 
 import java.util.Random;
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
 
 @AriniumModElements.ModElement.Tag
@@ -51,7 +46,7 @@ public class DarkAriniumOreBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_arinium_ore")
 	public static final Block block = null;
 	public DarkAriniumOreBlock(AriniumModElements instance) {
-		super(instance, 13);
+		super(instance, 15);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -59,7 +54,8 @@ public class DarkAriniumOreBlock extends AriniumModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(AriniumItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(DarkAriniumItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
@@ -73,20 +69,6 @@ public class DarkAriniumOreBlock extends AriniumModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(DarkAriniumIngotItem.block, (int) (1)));
-		}
-
-		@Override
-		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
-			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				DarkAriniumPickaxeProcedure.executeProcedure($_dependencies);
-			}
-			return retval;
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

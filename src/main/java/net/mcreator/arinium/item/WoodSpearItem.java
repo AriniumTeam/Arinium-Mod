@@ -53,7 +53,7 @@ public class WoodSpearItem extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletwood_spear").setRegistryName("entitybulletwood_spear");
 	public WoodSpearItem(AriniumModElements instance) {
-		super(instance, 337);
+		super(instance, 142);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WoodSpearRenderer.ModelRegisterHandler());
 	}
 

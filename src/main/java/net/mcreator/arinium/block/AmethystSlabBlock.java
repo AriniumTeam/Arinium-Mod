@@ -25,7 +25,7 @@ public class AmethystSlabBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:amethyst_slab")
 	public static final Block block = null;
 	public AmethystSlabBlock(AriniumModElements instance) {
-		super(instance, 33);
+		super(instance, 34);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class MagicWandItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:healing_wand")
 	public static final Item block = null;
 	public MagicWandItem(AriniumModElements instance) {
-		super(instance, 53);
+		super(instance, 54);
 	}
 
 	@Override

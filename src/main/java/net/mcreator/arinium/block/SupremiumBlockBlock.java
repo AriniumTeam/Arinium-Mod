@@ -24,7 +24,7 @@ public class SupremiumBlockBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:supremium_block")
 	public static final Block block = null;
 	public SupremiumBlockBlock(AriniumModElements instance) {
-		super(instance, 95);
+		super(instance, 94);
 	}
 
 	@Override

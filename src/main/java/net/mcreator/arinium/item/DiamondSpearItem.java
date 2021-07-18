@@ -53,7 +53,7 @@ public class DiamondSpearItem extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletdiamond_spear").setRegistryName("entitybulletdiamond_spear");
 	public DiamondSpearItem(AriniumModElements instance) {
-		super(instance, 353);
+		super(instance, 146);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DiamondSpearRenderer.ModelRegisterHandler());
 	}
 

@@ -16,7 +16,7 @@ public class XpItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:xp")
 	public static final Item block = null;
 	public XpItem(AriniumModElements instance) {
-		super(instance, 268);
+		super(instance, 112);
 	}
 
 	@Override

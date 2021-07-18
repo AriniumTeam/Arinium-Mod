@@ -16,7 +16,7 @@ public class TopazItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:topaz")
 	public static final Item block = null;
 	public TopazItem(AriniumModElements instance) {
-		super(instance, 49);
+		super(instance, 50);
 	}
 
 	@Override

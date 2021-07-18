@@ -16,7 +16,7 @@ public class RedFlintItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:red_flint")
 	public static final Item block = null;
 	public RedFlintItem(AriniumModElements instance) {
-		super(instance, 90);
+		super(instance, 89);
 	}
 
 	@Override

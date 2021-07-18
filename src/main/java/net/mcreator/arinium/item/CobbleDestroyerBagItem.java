@@ -50,7 +50,7 @@ public class CobbleDestroyerBagItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:cobble_destroyer_bag")
 	public static final Item block = null;
 	public CobbleDestroyerBagItem(AriniumModElements instance) {
-		super(instance, 93);
+		super(instance, 92);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

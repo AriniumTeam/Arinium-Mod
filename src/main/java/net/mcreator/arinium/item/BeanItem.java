@@ -17,7 +17,7 @@ public class BeanItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:bean")
 	public static final Item block = null;
 	public BeanItem(AriniumModElements instance) {
-		super(instance, 23);
+		super(instance, 24);
 	}
 
 	@Override

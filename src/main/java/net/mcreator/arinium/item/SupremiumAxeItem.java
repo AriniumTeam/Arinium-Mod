@@ -17,7 +17,7 @@ public class SupremiumAxeItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:supremium_axe")
 	public static final Item block = null;
 	public SupremiumAxeItem(AriniumModElements instance) {
-		super(instance, 98);
+		super(instance, 97);
 	}
 
 	@Override

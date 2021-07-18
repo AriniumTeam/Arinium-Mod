@@ -48,7 +48,7 @@ public class DarkSkeletonEntity extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.6f, 1.8f)).build("dark_skeleton").setRegistryName("dark_skeleton");
 	public DarkSkeletonEntity(AriniumModElements instance) {
-		super(instance, 112);
+		super(instance, 108);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DarkSkeletonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

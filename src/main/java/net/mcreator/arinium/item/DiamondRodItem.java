@@ -16,7 +16,7 @@ public class DiamondRodItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:diamond_rod")
 	public static final Item block = null;
 	public DiamondRodItem(AriniumModElements instance) {
-		super(instance, 87);
+		super(instance, 86);
 	}
 
 	@Override

@@ -44,7 +44,7 @@ public class SupremiumBowItem extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletsupremium_bow").setRegistryName("entitybulletsupremium_bow");
 	public SupremiumBowItem(AriniumModElements instance) {
-		super(instance, 92);
+		super(instance, 91);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SupremiumBowRenderer.ModelRegisterHandler());
 	}
 

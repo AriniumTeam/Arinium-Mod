@@ -17,7 +17,7 @@ public class CornItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:corn")
 	public static final Item block = null;
 	public CornItem(AriniumModElements instance) {
-		super(instance, 39);
+		super(instance, 40);
 	}
 
 	@Override

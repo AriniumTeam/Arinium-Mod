@@ -30,7 +30,7 @@ public class DeadLogBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dead_log")
 	public static final Block block = null;
 	public DeadLogBlock(AriniumModElements instance) {
-		super(instance, 101);
+		super(instance, 99);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class WeirdGrassBlockBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:weird_grass_block")
 	public static final Block block = null;
 	public WeirdGrassBlockBlock(AriniumModElements instance) {
-		super(instance, 84);
+		super(instance, 83);
 	}
 
 	@Override

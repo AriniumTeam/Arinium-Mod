@@ -12,7 +12,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class SpearsCooldownProcedure extends AriniumModElements.ModElement {
 	public SpearsCooldownProcedure(AriniumModElements instance) {
-		super(instance, 367);
+		super(instance, 340);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -75,7 +75,7 @@ public class AquaDimensionDimension extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:aqua_dimension_portal")
 	public static final CustomPortalBlock portal = null;
 	public AquaDimensionDimension(AriniumModElements instance) {
-		super(instance, 300);
+		super(instance, 128);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

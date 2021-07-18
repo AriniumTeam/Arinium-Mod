@@ -18,7 +18,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class ParasiteQuandLentiteMeurtProcedure extends AriniumModElements.ModElement {
 	public ParasiteQuandLentiteMeurtProcedure(AriniumModElements instance) {
-		super(instance, 336);
+		super(instance, 317);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

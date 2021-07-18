@@ -23,7 +23,7 @@ public class GreenBlockBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:green_block")
 	public static final Block block = null;
 	public GreenBlockBlock(AriniumModElements instance) {
-		super(instance, 280);
+		super(instance, 120);
 	}
 
 	@Override

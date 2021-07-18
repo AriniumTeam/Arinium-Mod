@@ -15,7 +15,7 @@ public class EmeraldSpearBulletItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:emerald_spear_bullet")
 	public static final Item block = null;
 	public EmeraldSpearBulletItem(AriniumModElements instance) {
-		super(instance, 346);
+		super(instance, 327);
 	}
 
 	@Override

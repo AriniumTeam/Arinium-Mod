@@ -58,7 +58,7 @@ public class ShibaEntity extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.6f, 1.8f)).build("shiba").setRegistryName("shiba");
 	public ShibaEntity(AriniumModElements instance) {
-		super(instance, 110);
+		super(instance, 106);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShibaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -23,7 +23,7 @@ public class WeirdCobblestoneBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:weird_cobblestone")
 	public static final Block block = null;
 	public WeirdCobblestoneBlock(AriniumModElements instance) {
-		super(instance, 86);
+		super(instance, 85);
 	}
 
 	@Override

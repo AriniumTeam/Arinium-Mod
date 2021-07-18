@@ -52,7 +52,7 @@ public class NetherLapisOreBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:nether_lapis_ore")
 	public static final Block block = null;
 	public NetherLapisOreBlock(AriniumModElements instance) {
-		super(instance, 317);
+		super(instance, 134);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

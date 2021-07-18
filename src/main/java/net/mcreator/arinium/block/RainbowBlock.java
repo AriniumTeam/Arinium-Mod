@@ -54,7 +54,7 @@ public class RainbowBlock extends AriniumModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public RainbowBlock(AriniumModElements instance) {
-		super(instance, 47);
+		super(instance, 48);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());

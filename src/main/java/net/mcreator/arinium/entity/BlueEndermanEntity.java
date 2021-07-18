@@ -72,7 +72,7 @@ public class BlueEndermanEntity extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.6f, 1.8f)).build("blue_enderman").setRegistryName("blue_enderman");
 	public BlueEndermanEntity(AriniumModElements instance) {
-		super(instance, 113);
+		super(instance, 109);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlueEndermanRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

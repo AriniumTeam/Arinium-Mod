@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.arinium.itemgroup.AriniumItemGroup;
+import net.mcreator.arinium.itemgroup.DarkAriniumItemGroup;
 import net.mcreator.arinium.AriniumModElements;
 
 @AriniumModElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class DarkAriniumIngotItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_arinium_ingot")
 	public static final Item block = null;
 	public DarkAriniumIngotItem(AriniumModElements instance) {
-		super(instance, 14);
+		super(instance, 16);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class DarkAriniumIngotItem extends AriniumModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(AriniumItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(DarkAriniumItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));
 			setRegistryName("dark_arinium_ingot");
 		}
 

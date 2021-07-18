@@ -42,7 +42,7 @@ public class BlueEndermenProcedureGui extends AriniumModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public BlueEndermenProcedureGui(AriniumModElements instance) {
-		super(instance, 258);
+		super(instance, 275);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

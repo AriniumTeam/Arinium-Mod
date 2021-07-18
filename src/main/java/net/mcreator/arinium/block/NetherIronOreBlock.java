@@ -46,7 +46,7 @@ public class NetherIronOreBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:nether_iron_ore")
 	public static final Block block = null;
 	public NetherIronOreBlock(AriniumModElements instance) {
-		super(instance, 316);
+		super(instance, 133);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

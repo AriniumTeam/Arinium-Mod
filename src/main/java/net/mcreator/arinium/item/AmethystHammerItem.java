@@ -33,7 +33,7 @@ public class AmethystHammerItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:amethyst_hammer")
 	public static final Item block = null;
 	public AmethystHammerItem(AriniumModElements instance) {
-		super(instance, 88);
+		super(instance, 87);
 	}
 
 	@Override

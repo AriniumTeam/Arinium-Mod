@@ -42,7 +42,7 @@ import net.mcreator.arinium.AriniumModElements;
 public class NetherBiomeBiome extends AriniumModElements.ModElement {
 	public static Biome biome;
 	public NetherBiomeBiome(AriniumModElements instance) {
-		super(instance, 256);
+		super(instance, 273);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

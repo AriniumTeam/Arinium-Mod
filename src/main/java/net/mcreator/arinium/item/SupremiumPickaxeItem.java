@@ -17,7 +17,7 @@ public class SupremiumPickaxeItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:supremium_pickaxe")
 	public static final Item block = null;
 	public SupremiumPickaxeItem(AriniumModElements instance) {
-		super(instance, 97);
+		super(instance, 96);
 	}
 
 	@Override

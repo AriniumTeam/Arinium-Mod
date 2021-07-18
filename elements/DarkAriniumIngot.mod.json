@@ -6,9 +6,9 @@
     "texture": "diamond",
     "customModelName": "Normal",
     "name": "Dark Arinium ",
-    "rarity": "UNCOMMON",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:Arinium"
+      "value": "CUSTOM:DarkArinium"
     },
     "stackSize": 64,
     "enchantability": 0,

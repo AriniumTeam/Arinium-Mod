@@ -45,7 +45,7 @@ public class FlamyTheBossEntity extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.6f, 1.8f)).build("flamy_the_boss").setRegistryName("flamy_the_boss");
 	public FlamyTheBossEntity(AriniumModElements instance) {
-		super(instance, 109);
+		super(instance, 105);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FlamyTheBossRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

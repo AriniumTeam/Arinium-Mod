@@ -45,7 +45,7 @@ public class SteelOreBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:steel_ore")
 	public static final Block block = null;
 	public SteelOreBlock(AriniumModElements instance) {
-		super(instance, 70);
+		super(instance, 71);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

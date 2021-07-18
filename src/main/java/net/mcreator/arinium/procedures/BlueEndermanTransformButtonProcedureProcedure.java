@@ -20,7 +20,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class BlueEndermanTransformButtonProcedureProcedure extends AriniumModElements.ModElement {
 	public BlueEndermanTransformButtonProcedureProcedure(AriniumModElements instance) {
-		super(instance, 174);
+		super(instance, 205);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

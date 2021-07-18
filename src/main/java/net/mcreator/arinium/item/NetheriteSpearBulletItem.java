@@ -15,7 +15,7 @@ public class NetheriteSpearBulletItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:netherite_spear_bullet")
 	public static final Item block = null;
 	public NetheriteSpearBulletItem(AriniumModElements instance) {
-		super(instance, 347);
+		super(instance, 328);
 	}
 
 	@Override

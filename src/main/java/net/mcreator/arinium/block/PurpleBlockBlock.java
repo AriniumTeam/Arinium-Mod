@@ -23,7 +23,7 @@ public class PurpleBlockBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:purple_block")
 	public static final Block block = null;
 	public PurpleBlockBlock(AriniumModElements instance) {
-		super(instance, 283);
+		super(instance, 123);
 	}
 
 	@Override

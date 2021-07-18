@@ -21,7 +21,7 @@ public class BloodBottleItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:blood_bottle")
 	public static final Item block = null;
 	public BloodBottleItem(AriniumModElements instance) {
-		super(instance, 73);
+		super(instance, 74);
 	}
 
 	@Override

@@ -22,7 +22,7 @@ import java.util.HashMap;
 @AriniumModElements.ModElement.Tag
 public class MagmaTunicProcedure extends AriniumModElements.ModElement {
 	public MagmaTunicProcedure(AriniumModElements instance) {
-		super(instance, 285);
+		super(instance, 284);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

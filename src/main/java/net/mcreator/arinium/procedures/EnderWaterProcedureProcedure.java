@@ -14,7 +14,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class EnderWaterProcedureProcedure extends AriniumModElements.ModElement {
 	public EnderWaterProcedureProcedure(AriniumModElements instance) {
-		super(instance, 126);
+		super(instance, 158);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

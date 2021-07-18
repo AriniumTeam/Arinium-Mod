@@ -12,7 +12,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.arinium.itemgroup.AriniumItemGroup;
+import net.mcreator.arinium.itemgroup.DarkAriniumItemGroup;
 import net.mcreator.arinium.AriniumModElements;
 
 import java.util.List;
@@ -23,13 +23,14 @@ public class DarkAriniumBlockBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_arinium_block")
 	public static final Block block = null;
 	public DarkAriniumBlockBlock(AriniumModElements instance) {
-		super(instance, 19);
+		super(instance, 17);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(AriniumItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(DarkAriniumItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

@@ -59,7 +59,7 @@ public class BlackMatterBlock extends AriniumModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public BlackMatterBlock(AriniumModElements instance) {
-		super(instance, 46);
+		super(instance, 47);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());

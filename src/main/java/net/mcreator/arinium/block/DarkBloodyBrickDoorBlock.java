@@ -33,7 +33,7 @@ public class DarkBloodyBrickDoorBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_bloody_brick_door")
 	public static final Block block = null;
 	public DarkBloodyBrickDoorBlock(AriniumModElements instance) {
-		super(instance, 64);
+		super(instance, 65);
 	}
 
 	@Override

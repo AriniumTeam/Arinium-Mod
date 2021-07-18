@@ -14,7 +14,7 @@ import net.mcreator.arinium.item.KILLPOTIONItem;
 @AriniumModElements.ModElement.Tag
 public class KILLPOTIONRECIBrewingRecipe extends AriniumModElements.ModElement {
 	public KILLPOTIONRECIBrewingRecipe(AriniumModElements instance) {
-		super(instance, 292);
+		super(instance, 290);
 	}
 
 	@Override

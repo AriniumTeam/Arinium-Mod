@@ -17,7 +17,7 @@ public class AmethystAxeItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:amethyst_axe")
 	public static final Item block = null;
 	public AmethystAxeItem(AriniumModElements instance) {
-		super(instance, 27);
+		super(instance, 28);
 	}
 
 	@Override

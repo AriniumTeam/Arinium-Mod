@@ -38,7 +38,7 @@ public class SupremiumArmorItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:supremium_armor_boots")
 	public static final Item boots = null;
 	public SupremiumArmorItem(AriniumModElements instance) {
-		super(instance, 94);
+		super(instance, 93);
 	}
 
 	@Override

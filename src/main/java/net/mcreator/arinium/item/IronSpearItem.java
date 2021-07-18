@@ -53,7 +53,7 @@ public class IronSpearItem extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletiron_spear").setRegistryName("entitybulletiron_spear");
 	public IronSpearItem(AriniumModElements instance) {
-		super(instance, 351);
+		super(instance, 144);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IronSpearRenderer.ModelRegisterHandler());
 	}
 

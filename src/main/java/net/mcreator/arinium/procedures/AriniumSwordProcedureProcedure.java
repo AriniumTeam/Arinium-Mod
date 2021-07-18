@@ -13,7 +13,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class AriniumSwordProcedureProcedure extends AriniumModElements.ModElement {
 	public AriniumSwordProcedureProcedure(AriniumModElements instance) {
-		super(instance, 118);
+		super(instance, 151);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

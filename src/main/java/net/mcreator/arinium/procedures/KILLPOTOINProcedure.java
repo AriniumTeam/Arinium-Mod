@@ -16,7 +16,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class KILLPOTOINProcedure extends AriniumModElements.ModElement {
 	public KILLPOTOINProcedure(AriniumModElements instance) {
-		super(instance, 291);
+		super(instance, 289);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

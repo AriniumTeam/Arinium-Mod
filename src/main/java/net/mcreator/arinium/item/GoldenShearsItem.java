@@ -16,7 +16,7 @@ public class GoldenShearsItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:golden_shears")
 	public static final Item block = null;
 	public GoldenShearsItem(AriniumModElements instance) {
-		super(instance, 38);
+		super(instance, 39);
 	}
 
 	@Override

@@ -38,7 +38,7 @@ public class BigTreeStructure extends AriniumModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public BigTreeStructure(AriniumModElements instance) {
-		super(instance, 187);
+		super(instance, 208);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -11,8 +11,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 
-import net.mcreator.arinium.procedures.AriniumSwordProcedureProcedure;
-import net.mcreator.arinium.itemgroup.AriniumItemGroup;
+import net.mcreator.arinium.procedures.DASwordProcedure;
+import net.mcreator.arinium.itemgroup.DarkAriniumItemGroup;
 import net.mcreator.arinium.AriniumModElements;
 
 import java.util.Map;
@@ -23,7 +23,7 @@ public class DarkSwordItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_sword")
 	public static final Item block = null;
 	public DarkSwordItem(AriniumModElements instance) {
-		super(instance, 18);
+		super(instance, 20);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class DarkSwordItem extends AriniumModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(DarkAriniumIngotItem.block, (int) (1)), new ItemStack(DarkSwordItem.block, (int) (1)));
 			}
-		}, 3, -2.5f, new Item.Properties().group(AriniumItemGroup.tab)) {
+		}, 3, -2.5f, new Item.Properties().group(DarkAriniumItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
@@ -63,7 +63,7 @@ public class DarkSwordItem extends AriniumModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					AriniumSwordProcedureProcedure.executeProcedure($_dependencies);
+					DASwordProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}

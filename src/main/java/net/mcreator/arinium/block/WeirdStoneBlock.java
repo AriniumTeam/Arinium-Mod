@@ -45,7 +45,7 @@ public class WeirdStoneBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:weird_stone")
 	public static final Block block = null;
 	public WeirdStoneBlock(AriniumModElements instance) {
-		super(instance, 85);
+		super(instance, 84);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

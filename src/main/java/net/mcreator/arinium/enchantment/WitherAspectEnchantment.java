@@ -14,7 +14,7 @@ public class WitherAspectEnchantment extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:wither_aspect")
 	public static final Enchantment enchantment = null;
 	public WitherAspectEnchantment(AriniumModElements instance) {
-		super(instance, 259);
+		super(instance, 276);
 	}
 
 	@Override

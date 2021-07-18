@@ -12,7 +12,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class WaterWandGuiProcedureProcedure extends AriniumModElements.ModElement {
 	public WaterWandGuiProcedureProcedure(AriniumModElements instance) {
-		super(instance, 135);
+		super(instance, 167);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

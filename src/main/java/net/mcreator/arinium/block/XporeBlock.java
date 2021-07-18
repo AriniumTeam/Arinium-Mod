@@ -47,7 +47,7 @@ public class XporeBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:xpore")
 	public static final Block block = null;
 	public XporeBlock(AriniumModElements instance) {
-		super(instance, 268);
+		super(instance, 113);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

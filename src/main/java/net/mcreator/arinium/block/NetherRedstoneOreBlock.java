@@ -46,7 +46,7 @@ public class NetherRedstoneOreBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:nether_redstone_ore")
 	public static final Block block = null;
 	public NetherRedstoneOreBlock(AriniumModElements instance) {
-		super(instance, 318);
+		super(instance, 135);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

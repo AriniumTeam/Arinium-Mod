@@ -8,7 +8,7 @@
     "name": "Dark Arinium Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Arinium"
+      "value": "CUSTOM:DarkArinium"
     },
     "toolType": "Sword",
     "harvestLevel": 4,
@@ -31,7 +31,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "AriniumSwordProcedure"
+      "name": "DASword"
     }
   }
 }

@@ -25,7 +25,7 @@ public class DaggerItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dagger")
 	public static final Item block = null;
 	public DaggerItem(AriniumModElements instance) {
-		super(instance, 71);
+		super(instance, 72);
 	}
 
 	@Override

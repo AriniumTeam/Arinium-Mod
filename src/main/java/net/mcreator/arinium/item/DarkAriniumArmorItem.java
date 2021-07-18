@@ -17,11 +17,11 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.arinium.procedures.AriniumLeggingsProcedureProcedure;
-import net.mcreator.arinium.procedures.AriniumHelmetProcedureProcedure;
-import net.mcreator.arinium.procedures.AriniumChestplateProcedureProcedure;
-import net.mcreator.arinium.procedures.AriniumBootsProcedureProcedure;
-import net.mcreator.arinium.itemgroup.AriniumItemGroup;
+import net.mcreator.arinium.procedures.DASpeedProcedure;
+import net.mcreator.arinium.procedures.DANightVisionProcedure;
+import net.mcreator.arinium.procedures.DAHealthBoostProcedure;
+import net.mcreator.arinium.procedures.DAFireResistanceProcedure;
+import net.mcreator.arinium.itemgroup.DarkAriniumItemGroup;
 import net.mcreator.arinium.AriniumModElements;
 
 import java.util.Map;
@@ -38,7 +38,7 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_arinium_armor_boots")
 	public static final Item boots = null;
 	public DarkAriniumArmorItem(AriniumModElements instance) {
-		super(instance, 15);
+		super(instance, 18);
 	}
 
 	@Override
@@ -85,7 +85,7 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 				return 0f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AriniumItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(DarkAriniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "arinium:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -100,11 +100,11 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					AriniumHelmetProcedureProcedure.executeProcedure($_dependencies);
+					DANightVisionProcedure.executeProcedure($_dependencies);
 				}
 			}
 		}.setRegistryName("dark_arinium_armor_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AriniumItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(DarkAriniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "arinium:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -118,11 +118,11 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					AriniumChestplateProcedureProcedure.executeProcedure($_dependencies);
+					DAHealthBoostProcedure.executeProcedure($_dependencies);
 				}
 			}
 		}.setRegistryName("dark_arinium_armor_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AriniumItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(DarkAriniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "arinium:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -136,11 +136,11 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					AriniumLeggingsProcedureProcedure.executeProcedure($_dependencies);
+					DAFireResistanceProcedure.executeProcedure($_dependencies);
 				}
 			}
 		}.setRegistryName("dark_arinium_armor_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AriniumItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(DarkAriniumItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "arinium:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -154,7 +154,7 @@ public class DarkAriniumArmorItem extends AriniumModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					AriniumBootsProcedureProcedure.executeProcedure($_dependencies);
+					DASpeedProcedure.executeProcedure($_dependencies);
 				}
 			}
 		}.setRegistryName("dark_arinium_armor_boots"));

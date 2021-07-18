@@ -17,7 +17,7 @@ public class AmethystPickaxeItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:amethyst_pickaxe")
 	public static final Item block = null;
 	public AmethystPickaxeItem(AriniumModElements instance) {
-		super(instance, 26);
+		super(instance, 27);
 	}
 
 	@Override

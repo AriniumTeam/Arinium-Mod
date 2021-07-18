@@ -23,7 +23,7 @@ public class FlamySwordItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:flamy_sword")
 	public static final Item block = null;
 	public FlamySwordItem(AriniumModElements instance) {
-		super(instance, 65);
+		super(instance, 66);
 	}
 
 	@Override

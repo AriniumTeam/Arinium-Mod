@@ -23,7 +23,7 @@ public class SupremiumSwordItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:supremium_sword")
 	public static final Item block = null;
 	public SupremiumSwordItem(AriniumModElements instance) {
-		super(instance, 96);
+		super(instance, 95);
 	}
 
 	@Override

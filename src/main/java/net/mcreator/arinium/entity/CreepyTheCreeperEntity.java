@@ -50,7 +50,7 @@ public class CreepyTheCreeperEntity extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(2000).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.immuneToFire().size(0.6f, 1.7f)).build("creepy_the_creeper").setRegistryName("creepy_the_creeper");
 	public CreepyTheCreeperEntity(AriniumModElements instance) {
-		super(instance, 111);
+		super(instance, 107);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CreepyTheCreeperRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

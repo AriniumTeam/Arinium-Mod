@@ -22,7 +22,7 @@ import java.util.HashMap;
 @AriniumModElements.ModElement.Tag
 public class DarkAriniumEffectProcedure extends AriniumModElements.ModElement {
 	public DarkAriniumEffectProcedure(AriniumModElements instance) {
-		super(instance, 370);
+		super(instance, 342);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

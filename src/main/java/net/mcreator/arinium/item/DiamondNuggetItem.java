@@ -16,7 +16,7 @@ public class DiamondNuggetItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:diamond_nugget")
 	public static final Item block = null;
 	public DiamondNuggetItem(AriniumModElements instance) {
-		super(instance, 323);
+		super(instance, 140);
 	}
 
 	@Override

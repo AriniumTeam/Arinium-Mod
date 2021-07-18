@@ -30,7 +30,7 @@ public class MagmaGTunicItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:magma_g_tunic_boots")
 	public static final Item boots = null;
 	public MagmaGTunicItem(AriniumModElements instance) {
-		super(instance, 285);
+		super(instance, 125);
 	}
 
 	@Override

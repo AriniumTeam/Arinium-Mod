@@ -13,7 +13,7 @@ import net.mcreator.arinium.AriniumModElements;
 @AriniumModElements.ModElement.Tag
 public class AriniumItemGroup extends AriniumModElements.ModElement {
 	public AriniumItemGroup(AriniumModElements instance) {
-		super(instance, 244);
+		super(instance, 265);
 	}
 
 	@Override

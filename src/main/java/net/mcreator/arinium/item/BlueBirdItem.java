@@ -19,7 +19,7 @@ public class BlueBirdItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:blue_bird")
 	public static final Item block = null;
 	public BlueBirdItem(AriniumModElements instance) {
-		super(instance, 52);
+		super(instance, 53);
 	}
 
 	@Override

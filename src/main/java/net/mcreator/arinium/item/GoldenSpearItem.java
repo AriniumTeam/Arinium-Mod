@@ -53,7 +53,7 @@ public class GoldenSpearItem extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletgolden_spear").setRegistryName("entitybulletgolden_spear");
 	public GoldenSpearItem(AriniumModElements instance) {
-		super(instance, 352);
+		super(instance, 145);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GoldenSpearRenderer.ModelRegisterHandler());
 	}
 

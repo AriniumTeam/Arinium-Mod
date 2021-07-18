@@ -23,7 +23,7 @@ public class SweetPopCornItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:sweet_pop_corn")
 	public static final Item block = null;
 	public SweetPopCornItem(AriniumModElements instance) {
-		super(instance, 42);
+		super(instance, 43);
 	}
 
 	@Override

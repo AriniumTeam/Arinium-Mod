@@ -24,7 +24,7 @@ public class AmethystStairsBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:amethyst_stairs")
 	public static final Block block = null;
 	public AmethystStairsBlock(AriniumModElements instance) {
-		super(instance, 32);
+		super(instance, 33);
 	}
 
 	@Override

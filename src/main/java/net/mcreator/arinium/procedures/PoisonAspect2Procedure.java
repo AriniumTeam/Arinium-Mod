@@ -22,7 +22,7 @@ import java.util.HashMap;
 @AriniumModElements.ModElement.Tag
 public class PoisonAspect2Procedure extends AriniumModElements.ModElement {
 	public PoisonAspect2Procedure(AriniumModElements instance) {
-		super(instance, 266);
+		super(instance, 280);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

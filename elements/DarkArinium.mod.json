@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Dark Arinium",
+    "icon": {
+      "value": "CUSTOM:DarkAriniumIngot"
+    },
+    "showSearch": false
+  }
+}

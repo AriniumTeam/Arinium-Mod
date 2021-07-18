@@ -25,7 +25,7 @@ public class KILLPOTIONItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:killpotion")
 	public static final Item block = null;
 	public KILLPOTIONItem(AriniumModElements instance) {
-		super(instance, 290);
+		super(instance, 126);
 	}
 
 	@Override

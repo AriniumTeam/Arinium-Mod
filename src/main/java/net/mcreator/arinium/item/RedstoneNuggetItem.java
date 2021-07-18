@@ -16,7 +16,7 @@ public class RedstoneNuggetItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:redstone_nugget")
 	public static final Item block = null;
 	public RedstoneNuggetItem(AriniumModElements instance) {
-		super(instance, 320);
+		super(instance, 137);
 	}
 
 	@Override

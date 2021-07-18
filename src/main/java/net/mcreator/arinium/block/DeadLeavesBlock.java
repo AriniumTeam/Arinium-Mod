@@ -23,7 +23,7 @@ public class DeadLeavesBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dead_leaves")
 	public static final Block block = null;
 	public DeadLeavesBlock(AriniumModElements instance) {
-		super(instance, 102);
+		super(instance, 100);
 	}
 
 	@Override

@@ -53,7 +53,7 @@ public class AriniumSpearItem extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletarinium_spear").setRegistryName("entitybulletarinium_spear");
 	public AriniumSpearItem(AriniumModElements instance) {
-		super(instance, 356);
+		super(instance, 14);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AriniumSpearRenderer.ModelRegisterHandler());
 	}
 

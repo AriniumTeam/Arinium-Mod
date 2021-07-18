@@ -57,7 +57,7 @@ public class CornPLantBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:corn_p_lant")
 	public static final Block block = null;
 	public CornPLantBlock(AriniumModElements instance) {
-		super(instance, 44);
+		super(instance, 45);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

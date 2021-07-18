@@ -23,7 +23,7 @@ public class MossyDarkStoneBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:mossy_dark_stone")
 	public static final Block block = null;
 	public MossyDarkStoneBlock(AriniumModElements instance) {
-		super(instance, 55);
+		super(instance, 56);
 	}
 
 	@Override

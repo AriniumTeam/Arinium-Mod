@@ -12,7 +12,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class AriniumDynaRangedItemUsedProcedure extends AriniumModElements.ModElement {
 	public AriniumDynaRangedItemUsedProcedure(AriniumModElements instance) {
-		super(instance, 251);
+		super(instance, 269);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

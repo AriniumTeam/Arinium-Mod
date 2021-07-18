@@ -53,7 +53,7 @@ public class StoneSpearItem extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletstone_spear").setRegistryName("entitybulletstone_spear");
 	public StoneSpearItem(AriniumModElements instance) {
-		super(instance, 350);
+		super(instance, 143);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new StoneSpearRenderer.ModelRegisterHandler());
 	}
 

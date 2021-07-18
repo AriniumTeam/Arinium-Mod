@@ -57,7 +57,7 @@ public class WeirdGrassBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:weird_grass")
 	public static final Block block = null;
 	public WeirdGrassBlock(AriniumModElements instance) {
-		super(instance, 82);
+		super(instance, 81);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -71,7 +71,7 @@ public class TopazCaseBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:topaz_case")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public TopazCaseBlock(AriniumModElements instance) {
-		super(instance, 51);
+		super(instance, 52);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

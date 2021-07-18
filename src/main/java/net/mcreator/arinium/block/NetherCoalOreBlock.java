@@ -46,7 +46,7 @@ public class NetherCoalOreBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:nether_coal_ore")
 	public static final Block block = null;
 	public NetherCoalOreBlock(AriniumModElements instance) {
-		super(instance, 313);
+		super(instance, 130);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

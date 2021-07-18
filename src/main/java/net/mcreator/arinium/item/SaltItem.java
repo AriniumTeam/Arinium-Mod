@@ -16,7 +16,7 @@ public class SaltItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:salt")
 	public static final Item block = null;
 	public SaltItem(AriniumModElements instance) {
-		super(instance, 40);
+		super(instance, 41);
 	}
 
 	@Override

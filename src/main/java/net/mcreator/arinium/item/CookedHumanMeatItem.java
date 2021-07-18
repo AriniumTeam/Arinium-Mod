@@ -21,7 +21,7 @@ public class CookedHumanMeatItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:cooked_human_meat")
 	public static final Item block = null;
 	public CookedHumanMeatItem(AriniumModElements instance) {
-		super(instance, 273);
+		super(instance, 116);
 	}
 
 	@Override

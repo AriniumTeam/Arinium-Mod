@@ -10,7 +10,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class FlamySwordProcedureProcedure extends AriniumModElements.ModElement {
 	public FlamySwordProcedureProcedure(AriniumModElements instance) {
-		super(instance, 168);
+		super(instance, 199);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

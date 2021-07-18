@@ -40,7 +40,7 @@ public class AquaTempleStructure extends AriniumModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public AquaTempleStructure(AriniumModElements instance) {
-		super(instance, 166);
+		super(instance, 197);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

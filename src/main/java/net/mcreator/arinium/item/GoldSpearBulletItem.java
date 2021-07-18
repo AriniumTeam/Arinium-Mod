@@ -15,7 +15,7 @@ public class GoldSpearBulletItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:gold_spear_bullet")
 	public static final Item block = null;
 	public GoldSpearBulletItem(AriniumModElements instance) {
-		super(instance, 344);
+		super(instance, 325);
 	}
 
 	@Override

@@ -47,7 +47,7 @@ public class RedEndermanEntity extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.6f, 1.8f)).build("red_enderman").setRegistryName("red_enderman");
 	public RedEndermanEntity(AriniumModElements instance) {
-		super(instance, 114);
+		super(instance, 110);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RedEndermanRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -46,7 +46,7 @@ public class ParasiteEntity extends AriniumModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.6f, 1.7f)).build("parasite").setRegistryName("parasite");
 	public ParasiteEntity(AriniumModElements instance) {
-		super(instance, 334);
+		super(instance, 141);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ParasiteRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

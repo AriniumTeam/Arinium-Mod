@@ -8,7 +8,7 @@
     "name": "Dark Arinium Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Arinium"
+      "value": "CUSTOM:DarkArinium"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 4,

@@ -46,7 +46,7 @@ public class TopazOreBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:topaz_ore")
 	public static final Block block = null;
 	public TopazOreBlock(AriniumModElements instance) {
-		super(instance, 50);
+		super(instance, 51);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

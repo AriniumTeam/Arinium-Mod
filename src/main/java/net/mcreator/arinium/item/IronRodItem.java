@@ -16,7 +16,7 @@ public class IronRodItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:iron_rod")
 	public static final Item block = null;
 	public IronRodItem(AriniumModElements instance) {
-		super(instance, 48);
+		super(instance, 49);
 	}
 
 	@Override

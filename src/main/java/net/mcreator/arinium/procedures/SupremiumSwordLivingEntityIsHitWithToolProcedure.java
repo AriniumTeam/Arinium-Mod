@@ -13,7 +13,7 @@ import java.util.Map;
 @AriniumModElements.ModElement.Tag
 public class SupremiumSwordLivingEntityIsHitWithToolProcedure extends AriniumModElements.ModElement {
 	public SupremiumSwordLivingEntityIsHitWithToolProcedure(AriniumModElements instance) {
-		super(instance, 239);
+		super(instance, 260);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

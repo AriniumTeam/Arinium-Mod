@@ -26,7 +26,7 @@ public class WaterWandItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:water_wand")
 	public static final Item block = null;
 	public WaterWandItem(AriniumModElements instance) {
-		super(instance, 36);
+		super(instance, 37);
 	}
 
 	@Override

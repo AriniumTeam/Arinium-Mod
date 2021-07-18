@@ -16,7 +16,7 @@ public class AriniumArrowNEItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:arinium_arrow_ne")
 	public static final Item block = null;
 	public AriniumArrowNEItem(AriniumModElements instance) {
-		super(instance, 89);
+		super(instance, 88);
 	}
 
 	@Override

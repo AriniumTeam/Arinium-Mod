@@ -16,7 +16,7 @@ public class YellowPearlItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:yellow_pearl")
 	public static final Item block = null;
 	public YellowPearlItem(AriniumModElements instance) {
-		super(instance, 69);
+		super(instance, 70);
 	}
 
 	@Override

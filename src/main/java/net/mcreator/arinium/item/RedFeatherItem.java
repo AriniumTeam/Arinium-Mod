@@ -16,7 +16,7 @@ public class RedFeatherItem extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:red_feather")
 	public static final Item block = null;
 	public RedFeatherItem(AriniumModElements instance) {
-		super(instance, 91);
+		super(instance, 90);
 	}
 
 	@Override

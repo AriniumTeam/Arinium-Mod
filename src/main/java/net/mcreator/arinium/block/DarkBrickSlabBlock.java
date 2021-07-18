@@ -25,7 +25,7 @@ public class DarkBrickSlabBlock extends AriniumModElements.ModElement {
 	@ObjectHolder("arinium:dark_brick_slab")
 	public static final Block block = null;
 	public DarkBrickSlabBlock(AriniumModElements instance) {
-		super(instance, 60);
+		super(instance, 61);
 	}
 
 	@Override
