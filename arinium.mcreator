@@ -3985,6 +3985,46 @@
       "ids": {},
       "registry_name": "da_dyna_recipe",
       "path": "~/recipe"
+    },
+    {
+      "name": "LavaWand",
+      "type": "item",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_wand",
+      "path": "~/Tools"
+    },
+    {
+      "name": "LavaWandProcedure",
+      "type": "procedure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_wand_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
     }
   ],
   "variable_elements": [],
@@ -4058,6 +4098,7 @@
       "block.arinium.nether_coal_ore": "Nether Coal Ore",
       "item.arinium.dark_skeleton_bone": "Dark Skeleton Bone",
       "item.arinium.supremium_armor_helmet": "Supremium Helmet",
+      "item.arinium.lava_wand": "Lava Wand",
       "advancements.arinium_advancement.title": "Arinium Advancement",
       "item.arinium.arinium_sword": "Arinium Sword",
       "block.arinium.dark_arinium_block": "Dark Arinium Block",
