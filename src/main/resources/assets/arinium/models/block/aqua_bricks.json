@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arinium:blocks/aqua_bricks",
+    "particle": "arinium:blocks/aqua_bricks"
+  }
+}

@@ -12,29 +12,29 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.arinium.itemgroup.UtilitiesItemGroup;
+import net.mcreator.arinium.itemgroup.AriniumItemGroup;
 import net.mcreator.arinium.AriniumModElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @AriniumModElements.ModElement.Tag
-public class WaterBlockBlock extends AriniumModElements.ModElement {
-	@ObjectHolder("arinium:water_block")
+public class AquaBricksBlock extends AriniumModElements.ModElement {
+	@ObjectHolder("arinium:aqua_bricks")
 	public static final Block block = null;
-	public WaterBlockBlock(AriniumModElements instance) {
-		super(instance, 129);
+	public AquaBricksBlock(AriniumModElements instance) {
+		super(instance, 353);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(UtilitiesItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(AriniumItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("water_block");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			setRegistryName("aqua_bricks");
 		}
 
 		@Override

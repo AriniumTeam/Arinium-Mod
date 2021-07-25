@@ -31,8 +31,8 @@
     "bulletItemTexture": {
       "value": "CUSTOM:DADyna"
     },
-    "bulletModel": "ModelAriniumDyna",
-    "customBulletModelTexture": "ariniumdynatexture.png",
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
     "onBulletHitsBlock": {
       "name": "AriniumDynaRangedItemUsed"
     }

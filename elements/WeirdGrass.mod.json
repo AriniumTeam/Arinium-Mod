@@ -54,10 +54,6 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:AriniumBiome"
-      }
-    ]
+    "restrictionBiomes": []
   }
 }

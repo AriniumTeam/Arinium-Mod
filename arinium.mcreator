@@ -3985,6 +3985,16 @@
       "ids": {},
       "registry_name": "da_dyna_recipe",
       "path": "~/recipe"
+    },
+    {
+      "name": "AquaBricks",
+      "type": "block",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aqua_bricks",
+      "path": "~/block"
     }
   ],
   "variable_elements": [],
@@ -4199,6 +4209,7 @@
       "item.arinium.cobble_destroyer_bag": "Cobble Destroyer Bag",
       "item.arinium.unpurified_supremium": "Unpurified Supremium",
       "item.arinium.amethyst": "Amethyst",
+      "block.arinium.aqua_bricks": "Aqua Bricks",
       "item.arinium.red_feather": "Red Feather",
       "item.arinium.magma_g_tunic_chestplate": "Magma Chestplate",
       "item.arinium.green_pearl": "Green Pearl",
