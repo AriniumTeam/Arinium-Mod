@@ -3995,6 +3995,46 @@
       "ids": {},
       "registry_name": "aqua_bricks",
       "path": "~/block"
+    },
+    {
+      "name": "LavaWand",
+      "type": "item",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_wand",
+      "path": "~/Tools"
+    },
+    {
+      "name": "LavaWandProcedure",
+      "type": "procedure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_wand_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
     }
   ],
   "variable_elements": [],
@@ -4024,8 +4064,8 @@
       "block.arinium.dead_planks": "Dead Planks",
       "item.arinium_v.running_shoes_chestplate": "Running Shoes Body",
       "item.arinium_v.arinium_armor_boots": "Arinium Boots",
-      "itemGroup.tabarinium": "Arinium",
       "item.arinium.yellow_pearl": "Yellow Pearl",
+      "itemGroup.tabarinium": "Arinium",
       "item.arinium_v.running_shoes_helmet": "Running Shoes Helmet",
       "block.arinium.dark_brick_slab": "Dark Brick Slab",
       "item.arinium.salt": "Salt",
@@ -4038,8 +4078,8 @@
       "entity.arinium.green_enderman": "Green Enderman",
       "item.arinium.running_shoes_chestplate": "Running Shoes Body",
       "item.arinium.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
-      "block.arinium.amethyst_slab": "Amethyst Slab",
       "item.arinium.ariniumdust": "Arinium Dust",
+      "block.arinium.amethyst_slab": "Amethyst Slab",
       "item.arinium.flamy_sword": "Flamy Sword",
       "block.arinium.xpore": "XP Ore",
       "item.arinium.yellow_enderman_spawn_egg": "Yellow Enderman Spawn Egg",
@@ -4065,9 +4105,10 @@
       "item.arinium.amethyst_hammer": "Amethyst Hammer",
       "item.arinium.supremium_armor_boots": "Supremium Boots",
       "block.arinium.ametysthblock": "Amethyst Block",
-      "block.arinium.nether_coal_ore": "Nether Coal Ore",
-      "item.arinium.dark_skeleton_bone": "Dark Skeleton Bone",
       "item.arinium.supremium_armor_helmet": "Supremium Helmet",
+      "item.arinium.dark_skeleton_bone": "Dark Skeleton Bone",
+      "block.arinium.nether_coal_ore": "Nether Coal Ore",
+      "item.arinium.lava_wand": "Lava Wand",
       "advancements.arinium_advancement.title": "Arinium Advancement",
       "item.arinium.arinium_sword": "Arinium Sword",
       "block.arinium.dark_arinium_block": "Dark Arinium Block",
@@ -4076,8 +4117,8 @@
       "item.arinium.green_enderman_spawn_egg": "Green Enderman Spawn Egg",
       "itemGroup.tabdark_arinium": "Dark Arinium",
       "fluid.rainbow": "Rainbow",
-      "item.arinium.arinium_spear_bullet": "Arinium Spear Bullet",
       "item.arinium.blue_bird.desc": "Blue Bird from Naruto Shippuden - Oppening 3",
+      "item.arinium.arinium_spear_bullet": "Arinium Spear Bullet",
       "itemGroup.tabutilities": "Other Items",
       "item.arinium.steel": "Steel",
       "block.arinium.cracked_dark_brick_stairs": "Cracked Dark Brick Stairs",
@@ -4209,7 +4250,6 @@
       "item.arinium.cobble_destroyer_bag": "Cobble Destroyer Bag",
       "item.arinium.unpurified_supremium": "Unpurified Supremium",
       "item.arinium.amethyst": "Amethyst",
-      "block.arinium.aqua_bricks": "Aqua Bricks",
       "item.arinium.red_feather": "Red Feather",
       "item.arinium.magma_g_tunic_chestplate": "Magma Chestplate",
       "item.arinium.green_pearl": "Green Pearl",
@@ -4240,11 +4280,31 @@
         "children": []
       },
       {
+        "name": "block",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "particles",
+        "children": []
+      },
+      {
+        "name": "Loot table",
+        "children": []
+      },
+      {
+        "name": "creative tabs",
+        "children": []
+      },
+      {
         "name": "procedure",
         "children": []
       },
       {
-        "name": "mob_entity",
+        "name": "effects",
         "children": []
       },
       {
@@ -4252,7 +4312,27 @@
         "children": []
       },
       {
-        "name": "block",
+        "name": "fluid",
+        "children": []
+      },
+      {
+        "name": "mob_entity",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "biome_dimension",
+        "children": []
+      },
+      {
+        "name": "enchantements",
         "children": []
       },
       {
@@ -4265,51 +4345,11 @@
         ]
       },
       {
-        "name": "Armor",
-        "children": []
-      },
-      {
-        "name": "Tools",
-        "children": []
-      },
-      {
         "name": "Structure",
         "children": []
       },
       {
-        "name": "enchantements",
-        "children": []
-      },
-      {
         "name": "advancements",
-        "children": []
-      },
-      {
-        "name": "particles",
-        "children": []
-      },
-      {
-        "name": "creative tabs",
-        "children": []
-      },
-      {
-        "name": "biome_dimension",
-        "children": []
-      },
-      {
-        "name": "fluid",
-        "children": []
-      },
-      {
-        "name": "items",
-        "children": []
-      },
-      {
-        "name": "Loot table",
-        "children": []
-      },
-      {
-        "name": "effects",
         "children": []
       }
     ]
